@@ -1,0 +1,58 @@
+body {
+    font-family: Tahoma;
+    color: #E6E6E6;
+}
+
+.main {
+	margin: 0 auto;
+	padding: 57px 64px 35px 70px;
+    background-image: url("../img/background.jpg");
+    width: 825px;
+}
+
+.contact {
+	padding-top: 90px;
+	padding-right: 20px; 
+	float: right;
+	line-height: 1.2;
+	font-size: 8.5px;
+}
+
+.phone {
+	font-size: 8.3px;
+}
+
+.contact-us {
+	font-size: 10.5px;
+	line-height: 2;
+	text-shadow: 0 0 1px;
+}
+
+.content div {
+	display: inline-block;
+	padding-right: 8px;
+}
+
+.content p {
+	text-align: center;
+	font-size: 15.24px;
+	text-shadow: 0 0 2px;
+}
+
+.content div:nth-child(3){
+	padding: 0;
+}
+
+.content div:nth-child(6){
+	padding: 0;
+}
+
+.india {
+	padding-bottom: 50px;
+}
+
+.footer {
+	padding-top: 185px;
+	font-size: 10.16px;
+	text-align: center;
+}
