@@ -9,9 +9,13 @@
     font-style: normal;
 }
 
+html,
 body {
     font-size: 15px;
     font-family: "Helvetica Neue";
+    height: 100%;
+    background: url("../img/background.jpg") no-repeat;
+	background-size: cover;
 }
 
 .clearfix:after {
@@ -21,18 +25,20 @@ body {
 }
 
 .main {
-	margin: 0 auto;
-	width: 1215px;
+	height: 96%;
 }
 
 .header {
-	width: 1215px;
+	text-align: center;
 	background-color: #085596;
 }
 
+.menu {
+}
+
 .menu ul {
+	margin: 0 auto;
 	padding-right: 20px;
-	float: right;
 	line-height: 36px;
 	background-color: #085596;
 }
@@ -90,9 +96,11 @@ body {
 }
 
 .content {
-	line-height: 1028px;
-	background-image: url("../img/background.jpg");
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	text-align: center;
+	height: 100%;
 }
 
 .form {
