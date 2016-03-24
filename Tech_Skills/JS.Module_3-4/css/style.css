@@ -1,0 +1,39 @@
+body {
+    font-family: sans-serif;
+}
+
+.test-title {
+    margin-top: 30px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.form {
+    margin: 0 auto;
+    width: 800px;
+}
+
+.form__question-title {
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.form__checkbox {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+
+.form__label {
+    padding-left: 10px;
+}
+
+.form__check-answer {
+    margin: 0 auto;
+    margin-top: 40px;
+    display: block;
+    padding: 10px 30px;
+    border: 3px solid black;
+    font-size: 20px;
+    background-color: #BDC5E6;
+}
