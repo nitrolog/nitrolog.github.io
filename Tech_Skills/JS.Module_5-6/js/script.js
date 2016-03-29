@@ -76,12 +76,10 @@ function clearTimerButtonHandler() {
   timerMilliseconds.innerHTML = '0';
   timerHours.innerHTML = '00:00:00';
   startPauseButton.innerHTML = 'Start';
-  startPauseButton.removeEventListener('click', startButtonHandler);
 }
 
 function startPauseButtonChecker() {
   if (!clickChecker) {
-    console.log(pauseChecker);
     startButtonHandler();
   } else { if (!pauseChecker) {
       startButtonHandler();
