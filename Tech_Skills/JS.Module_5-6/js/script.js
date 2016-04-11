@@ -12,9 +12,9 @@ function startButtonHandler() {
   clickChecker = true;
 
   function startTimer() {
-    milliseconds++;
+    milliseconds = +milliseconds + 4;
 
-    if (milliseconds > 99) {
+    if (milliseconds > 999) {
       milliseconds = 0;
       milliseconds = '0';
       seconds++;
@@ -62,7 +62,7 @@ function startButtonHandler() {
 
   };
 
-  timer = setInterval(startTimer, 10);
+  timer = setInterval(startTimer, 4);
 }
 
 function clearTimerButtonHandler() {
