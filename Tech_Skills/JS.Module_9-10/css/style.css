@@ -1,0 +1,154 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.wrapper {
+    margin: 0 auto;
+    padding-top: 50px;
+    width: 1000px;
+}
+
+.dropdown {
+    padding: 50px 0;
+    text-align: center;
+}
+
+
+
+
+.checkbox {
+    display: inline-block;
+    margin-left: 200px;
+}
+
+
+        /**     CHECKBOX   JQUERY **/
+
+.checkbox__jquery {
+    width: 17px;
+    height: 17px;
+    display: inline-block;
+    cursor: pointer;
+    background-image: url('../img/checkbox-sprite.png');
+    overflow: hidden;
+}
+.checkbox__jquery--checked {
+    background-position: 0 -17px;
+}
+.checkbox__jquery input {
+    margin-left: -100px;
+}
+.checkbox__jquery--disabled {
+    background-image: url('../img/checkbox-disabled.png');
+}
+
+.checkbox label {
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+
+
+    /**     CHECKBOX   CSS     **/
+
+
+.checkbox__css-input {
+    position: absolute;
+    clip: rect(0, 0, 0, 0);
+}
+
+.checkbox__css-label {
+    cursor: pointer;
+}
+
+.checkbox__css-label:after {
+    content: " ";
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    background-image: url('../img/checkbox-sprite.png');
+    position: relative;
+    top: 3px;
+    margin-left: 15px;
+}
+
+.checkbox__css-input:checked + .checkbox__css-label:after {
+    background: url('../img/checkbox-sprite.png') 0 -17px;
+}
+
+.checkbox__css-input:disabled + .checkbox__css-label:after {
+    background: url('../img/checkbox-disabled.png') 0 -17px;
+}
+
+
+
+    /**  SLIDDOWN MENU   **/
+
+.menu {
+    margin-bottom: 60px;
+    text-align: center;
+    z-index: 1;
+    background-color: #BBBEBB;
+}
+
+.menu > li {
+    margin: 0 10px;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu > li > a {
+    display: block;
+    padding: 8px 30px;
+}
+
+.menu a:hover {
+    color: #646262;
+}
+
+.slid-menu {
+    position: relative;
+}
+
+.submenu {
+    position: absolute;
+    text-align: left;
+    z-index: 2;
+}
+
+.submenu a:hover {
+    color: #C5C1C1;
+}
+
+.submenu .submenu {
+    top: 0;
+    left: 170px;
+}
+
+.submenu li {
+    position: relative;
+    background-color: #BBBEBB;
+    display: none;
+    width: 150px;
+    left: -50px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.submenu li a {
+    display: block;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #A8A4A4;
+}
+
+.menu li:last-child a {
+    border-bottom: none;
+}
