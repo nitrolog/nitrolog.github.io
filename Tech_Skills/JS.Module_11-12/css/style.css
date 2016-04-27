@@ -1,0 +1,149 @@
+body {
+    font-family: "Times New Roman", serif;
+    /*font-size: 14px;*/
+}
+
+
+
+        /**     CAROUSEL PLUGIN     **/
+
+.carousel {
+    margin: 0 auto;
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    width: 900px;
+}
+
+.carousel__hider {
+    margin: 0 auto;
+    overflow: hidden;
+    width: 790px;
+}
+
+.carousel__list {
+    position: relative;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    width: 10000px;
+}
+
+.carousel__item {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.carousel__item img {
+    width: 250px;
+}
+
+.carousel__carousel-control-prev,
+.carousel__carousel-control-next {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    background-color: black;
+    border-radius: 30px;
+    box-shadow: 0 0 4px #F0EFE7;
+    cursor: pointer;
+}
+
+.carousel__carousel-control-prev {
+    float: left;
+
+}
+
+.carousel__carousel-control-next {
+    float: right;
+}
+
+.carousel--end {
+    background-color: #7B726A;
+}
+
+
+
+
+
+        /**   TEMPLATE JS   **/
+
+
+.main {
+    margin: 100px auto;
+    padding: 30px 50px 50px 50px;
+    width: 512px;
+    box-shadow: 0 0 10px rgb(213,213,213);
+    font-size: 17px;
+}
+.header {
+    margin: 0 auto;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.header__title {
+    padding-bottom: 10px;
+    font-weight: bold;
+    font-size: 21px;
+}
+
+.header__logo {
+    padding-bottom: 10px;
+    height: 150px;
+
+}
+
+.header__content {
+    text-align: left;
+    padding-left: 10px;
+}
+
+.content {
+    padding-top: 25px;
+    border-top: 1px solid black;
+}
+
+.content p {
+    text-align: left;
+    padding-left: 10px;
+}
+
+.content__list {
+    margin-left: 40px;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    list-style: disc;
+}
+
+.content__list li {
+    padding-bottom: 10px;
+}
+
+.contact {
+    padding-top: 25px;
+    padding-bottom: 15px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.contact__my-number {
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+.contact__link {
+    display: block;
+    padding-top: 10px;
+}
+
+.footer {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.footer p{
+    padding-bottom: 10px;
+}

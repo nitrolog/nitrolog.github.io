@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>JS_Homework_11-12</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+	<script src="js/jquery.carousel.js"></script>
+	<script src="js/template.js"></script>
+	<script src="js/script.js"></script>
+</head>
+<body>
+							<!-- CAROUSEL PLUGIN -->
+	<div class="carousel">
+		<div class="carousel__carousel-control-prev carousel--end" title="Назад">&lsaquo;</div>
+		<div class="carousel__hider">
+			<ul class="carousel__list">
+				<li class="carousel__item "><img src="img/1.jpg" alt=""></li>
+				<li class="carousel__item"><img src="img/2.jpg" alt=""></li>
+				<li class="carousel__item"><img src="img/3.jpg" alt=""></li>
+				<li class="carousel__item"><img src="img/4.jpg" alt=""></li>
+				<li class="carousel__item"><img src="img/5.jpg" alt=""></li>
+				<li class="carousel__item"><img src="img/6.jpg" alt=""></li>
+				<li class="carousel__item"><img src="img/7.jpg" alt=""></li>
+				<li class="carousel__item"><img src="img/8.jpg" alt=""></li>
+				<li class="carousel__item"><img src="img/9.jpg" alt=""></li>
+				<li class="carousel__item"><img src="img/10.jpg" alt=""></li>
+			</ul>
+		</div>
+		<div class="carousel__carousel-control-next" title="Вперед">&rsaquo;</div>
+	</div>
+
+
+
+
+						<!-- TEMPLATE JS -->
+
+	<script type="text/template" id="template">
+		<div class="main">
+			<div class="header">
+	            <h3 class="header__title"><%= headerTitle %></h3>
+	            <img class="header__logo" src="<%= headerLogo %>" alt="моє фото"/>
+	            <p class="header__content"><%= headerContent %></p>
+	        </div>
+	        <div class="content">
+	            <p><%= contentTitle %></p>
+	            <ul class="content__list">
+	                <li><%= contentListItem_1 %></li>
+	                <li><%= contentListItem_2 %></li>
+	                <li><%= contentListItem_3 %></li>
+	            </ul>
+	        </div>
+	        <div class="contact">
+	            <p><%= contactTitle %></p>
+	            <p class="contact__my-number"><%= phoneNumber %></p>
+	            <p><%= contactSocialNetworkTitle %></p>
+	            <a class="contact__link" href="<%= contactSocialNetworkLink %>"><%= contactSocialNetworkLinkName %></a>
+	        </div>
+	        <div class="footer">
+	            <p><%= footerTitle %></p>
+	            <p><%= footerContent %></p>
+	        </div>
+		</div>
+	</script>
+</body>
+</html>
