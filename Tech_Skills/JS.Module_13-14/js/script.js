@@ -61,7 +61,7 @@ $(function () {
     e.preventDefault();
             
             /**   ВЫБИРАЕМ ВСЕ ОТМЕЧЕННЫЕ ОТВЕТЫ  **/
-    var $userAnswerCollect = $("input:radio:checked").next('label');
+    var $userAnswerCollect = $("input:radio:checked").parent('label');
 
 
              /**    ДОБАВЛЯЕМ ИХ В МАССИВ    **/
