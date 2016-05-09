@@ -18,7 +18,7 @@
 					<h2 class="form__question-title"><%= list[i].questionTitle %></h2>
 						<% $.each( list[i].answerList, function (key, value) { %>
 							<div class="form__checkbox">
-								<label><input type="radio" name="<%= list[i].inputName %>"><%- value %></label>
+								<label><input class="form__input" type="radio" name="<%= list[i].inputName %>"><%- value %></label>
 							</div>
 						<% }); %>
 				<% }; %>
