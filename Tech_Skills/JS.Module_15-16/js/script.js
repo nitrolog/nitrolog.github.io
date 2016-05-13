@@ -86,32 +86,27 @@ $(function () {
     this.height = height;
   }
 
+  Worker.prototype = new Human();
+  Student.prototype = new Human();
+
   function Worker(placeWork, salary) {
     this.placeWork = placeWork;
     this.salary = salary;
-    this.work = function () {
-      console.log('WORK');
-    }
   }
 
-  // Worker.prototype.work = function () {
-  //   console.log('WORK');
-  // }
+  Worker.prototype.work = function () {
+    console.log('WORK');
+  }
 
   function Student(placeStudy, scholarship) {
     this.placeStudy = placeStudy;
     this.scholarship = scholarship;
-    this.watchSerials = function () {
-      console.log('Watch Serials');
-    }
   }
 
-  // Student.prototype.watchSerials = function () {
-  //     console.log('Watch Serials');
-  // }
+  Student.prototype.watchSerials = function () {
+      console.log('Watch Serials');
+  }
 
-  Worker.prototype = new Human();
-  Student.prototype = new Human();
 
   var Worker1 = new Worker();
   var Student1 = new Student();
