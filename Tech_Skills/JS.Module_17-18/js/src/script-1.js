@@ -1,0 +1,1 @@
+console.log('Message from script-1.js');
