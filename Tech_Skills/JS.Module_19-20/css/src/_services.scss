@@ -1,0 +1,52 @@
+.services {
+	margin-top: 85px;
+	background-color: $main-background;
+	font-family: $font-family-ubuntu;
+}
+
+.services__title {
+	padding-top: 45px;
+	padding-bottom: 52px;
+	font-size: 24px;
+	color: white;
+}
+
+.services__figure {
+	margin-right: 35px;
+	display: inline-block;
+	text-align: center;
+}
+
+.services__figure:last-child {
+	margin: 0;
+}
+
+.services__image {
+	display: block;
+	position: relative;
+	overflow: hidden;
+	width: 260px;
+	height: 260px;
+}
+
+.services__image:hover::after {
+	position: absolute;
+	content: "";
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: url(../img/transparent-layer.png) no-repeat;
+}
+
+.services__figcaption {
+	padding-top: 35px;
+	padding-bottom: 68px;
+	color: white;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.services__image:hover + .services__figcaption {
+	color: $menu-link-hover;
+}

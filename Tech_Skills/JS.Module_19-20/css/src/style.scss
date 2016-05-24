@@ -1,0 +1,191 @@
+@import 'reset';
+@import 'variables';
+
+@font-face {
+    font-family: 'Ubuntu Condensed';
+    src: url('../fonts/ubuntu-c-webfont.woff2') format('woff2'),
+         url('../fonts/ubuntu-c-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('../fonts/ubuntu-r-webfont.woff2') format('woff2'),
+         url('../fonts/ubuntu-r-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+	font-family: Arial;
+}
+
+
+
+				/**     HEADER    **/
+
+header {
+	margin-top: 36px;
+}
+
+.container {
+	margin: 0 auto;
+	width: 1160px;
+}
+
+.header-top {
+	overflow: hidden;
+}
+
+.logo {
+	padding-left: 5px;
+	float: left;
+}
+
+.header-contacts {
+	margin-top: 12px;
+	float: right;
+}
+
+.header-contacts__item {
+	margin-right: 10px;
+	display: inline-block;
+	width: 20px;
+	height: 16px;
+	background: url(../img/contacts-sprite.png) 7px 0 no-repeat;
+}
+
+.header-contacts__item:nth-child(2) {
+	background: url(../img/contacts-sprite.png) -20px 0 no-repeat;
+}
+
+.header-contacts__item:nth-child(3) {
+	background: url(../img/contacts-sprite.png) -45px 0 no-repeat;
+}
+
+.header-contacts__item:nth-child(4) {
+	background: url(../img/contacts-sprite.png) -71px 0 no-repeat;
+}
+
+.header-contacts__item:nth-child(5) {
+	margin-right: 0;
+	background: url(../img/contacts-sprite.png) -95px 0 no-repeat;
+}
+
+.header-contacts__link {
+	display: block;
+	height: 100%;
+}
+
+.header-contacts__item:hover {
+	background: url(../img/contacts-sprite.png) 7px -18px no-repeat;
+}
+
+.header-contacts__item:nth-child(2):hover {
+	background: url(../img/contacts-sprite.png) -20px -18px no-repeat;
+}
+
+.header-contacts__item:nth-child(3):hover {
+	background: url(../img/contacts-sprite.png) -45px -18px no-repeat;
+}
+
+.header-contacts__item:nth-child(4):hover {
+	background: url(../img/contacts-sprite.png) -71px -19px no-repeat;
+}
+
+.header-contacts__item:nth-child(5):hover {
+	background: url(../img/contacts-sprite.png) -95px -18px no-repeat;
+}
+
+.main-menu {
+	margin-top: 38px;
+	background-color: $main-background;
+	overflow: hidden;
+	font-size: $font-size-main-menu;
+	font-family: $font-family-ubuntu-condens;
+}
+
+.main-menu__item {
+	padding: 20px 40px;
+	float: left;
+}
+
+.main-menu__item:first-child {
+	background-color: $menu-item-active;
+}
+
+.main-menu__item:last-child {
+	position: relative;
+	margin-top: 6px;
+	margin-right: 8px;
+	padding: 0;
+	float: right;
+	border: 1px solid $menu-item-last-border;
+}
+
+.main-menu__link {
+	text-decoration: none;
+	color: white;
+}
+
+.main-menu__link:hover {
+	color: $menu-link-hover;
+}
+
+.search-form__input {
+	padding-top: 12px;
+	padding-right: 30px;
+	padding-bottom: 12px;
+	padding-left: 12px;
+	width: 240px;
+	border: none;
+	font-size: $font-size-form-input;
+	color: #525559;
+	background-color: rgba(255, 255, 255, 0.05);
+}
+
+.search-form__input:focus {
+	outline: none;
+}
+
+.search-form__search-icon {
+	position: absolute;
+	top: 14px;
+	right: 12px;
+}
+
+
+			/** 	BANNER       **/
+
+@import 'jcarousel';
+
+
+
+
+
+			/**			MAIN		 **/
+
+
+@import 'main';
+
+
+
+			/** 	SERVICES    **/
+
+@import 'services';
+
+
+
+			/** 	ADDITIONAL INFORMATION			**/
+
+@import 'additional-information';
+
+
+
+
+			/** 	FOOTER    **/
+
+@import 'footer';
