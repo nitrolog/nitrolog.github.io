@@ -50,18 +50,6 @@
         left: 480px;
     }
 
-    .slider-arrows {
-        top: 81px;
-    }
-
-    .slider-arrows__left {
-        margin-left: -51px;
-    }
-
-    .slider-arrows__right {
-        margin-right: 39px;
-    }
-
     .slider-nav {
         right: 187px;
         bottom: -357px;

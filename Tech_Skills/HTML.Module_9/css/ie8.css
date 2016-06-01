@@ -176,22 +176,6 @@ body {
     z-index: 8;
 }
 
-.slider-arrows {
-    position: relative;
-    top: 100px;
-}
-
-.slider-arrows__left {
-    float: left;
-    padding-left: 0.2%;
-    margin-left: -45px;
-}
-
-.slider-arrows__right {
-    float: right;
-    padding-right: 0.2%;
-}
-
 .slider-nav {
     display: none;
     position: absolute;

@@ -1,4 +1,4 @@
-@media (max-width: 480px) {
+@media (max-width: 500px) {
 
     .container {
         max-width: 280px;
@@ -19,14 +19,6 @@
 
     .slider__iphone {
         display: none;
-    }
-
-    .slider-arrows__left {
-        margin-left: -70px;
-    }
-
-    .slider-arrows__right {
-        margin-right: 23px;
     }
 
     .slider-nav {

@@ -1,4 +1,4 @@
-@media (max-width: 480px) {
+@media (max-width: 500px) {
 
     .container {
         max-width: 280px;
@@ -19,14 +19,6 @@
 
     .slider__iphone {
         display: none;
-    }
-
-    .slider-arrows__left {
-        margin-left: -70px;
-    }
-
-    .slider-arrows__right {
-        margin-right: 23px;
     }
 
     .slider-nav {
@@ -63,11 +55,6 @@
         width: 210px;
     }
 
-
-
-
-
-
     .testimonials {
         float: none;
         margin-top: 0;
@@ -102,24 +89,7 @@
         height: 167px;
     }
 
-/*    .slider-nav--testimonials {
-        position: static;
-        text-align: center;
-    }
-
-    .slider-nav__item--testimonials {
-        background-color: white;
-        border: 1px solid #d9d9d9;
-        box-sizing: border-box;
-    }
-
-    .slider-nav__item--testimonials:nth-child(2) {
-        background: url("../img/slider-nav-black.png") 2px 2px no-repeat;
-    }
-*/
     .news {
-        /*float: none;*/
-        /*margin: 0 auto;*/
         width: 300px;
         padding-left: 0;
         padding-bottom: 84px;
