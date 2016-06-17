@@ -1,0 +1,48 @@
+@media (min-width: 960px) {
+
+	.partner {
+		top: 14px;
+		width: 220px;
+	}
+
+	.partner--tablet-desktop-1 {
+		float: left;
+		left: 0;
+	}
+
+	.partner--tablet-desktop-2 {
+		margin-right: 18px;
+		margin-left: 22px;
+		float: left;
+		right: 0;
+	}
+	
+	.partner--tablet-desktop-3 {
+		float: left;
+		left: 0;
+	}
+
+	.partner--tablet-desktop-4 {
+		float: right;
+		right: 0;
+	}
+
+	.partner__icon-sprite {
+		top: 86px;
+		right: 48px;
+	}
+
+	.partner__name {
+		margin-top: 18px;
+	}
+
+	.partner__description {
+		padding: 0;
+	}
+
+	.see-other-partners {
+		margin-top: 25px;
+	}
+
+
+}

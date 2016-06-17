@@ -1,0 +1,58 @@
+@media (min-width: 960px) {
+
+    .how-it-works__title {
+        padding-left: 0;
+    }
+
+
+    /** Carousel **/
+
+    .jcarousel {
+        margin-right: 20px;
+        width: 300px;
+    }
+
+    .jcarousel__item {
+        width: 300px;
+        height: 397px;
+    }
+
+
+    .jcarousel__item--step-1-image {
+        background: url('../img/step-1-slider-desktop.jpg') no-repeat;
+    }
+
+    .jcarousel__item--step-2-image {
+        background: url('../img/step-2-slider-desktop.jpg') no-repeat;
+    }
+
+    .jcarousel__item--step-3-image {
+        background: url('../img/step-3-slider-desktop.jpg') no-repeat;
+    }
+
+    .jcarousel__control-prev,
+    .jcarousel__control-next {
+        top: 153px;
+    }
+
+    .jcarousel__control-prev--step-2 {
+        left: 20px;
+    }
+
+    .jcarousel__control-next--step-2 {
+        right: 20px;
+    }
+
+        /** End Carousel **/
+
+        
+
+    .steps {
+        top: 231px;
+    }
+
+    .steps--step-2 {
+        top: 258px;
+    }
+
+}
