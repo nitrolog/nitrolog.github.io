@@ -335,51 +335,7 @@ header {
 
 
 .ideas {
-	margin-top: 98px;
-}
-
-.ideas__title {
-	font-family: "Montserrat Bold";
-	font-size: 22px;
-	line-height: 24px;
-}
-
-.grid {
-	margin-top: 35px;
-}
-
-.grid__item {
-	float: left;
-	margin-bottom: 19px;
-	width: 300px;
-	height: 310px;
-	overflow: hidden;
-}
-
-.grid__item--width-2x {
-	width: 620px;
-}
-
-.grid__link {
-	width: 300px;
-	height: 310px;
-	text-decoration: none;
-}
-
-.grid__item-title-box {
-	position: absolute;
-	display: table;
-	width: 100%;
-	height: 100%;
-}
-
-.grid__item-title {
-	padding: 0 10px;
-	display: table-cell;
-	vertical-align: middle;
-	font-family: "Montserrat Bold";
-	font-size: 22px;
-	color: white;
+	display: none;
 }
 
 .search-partner {
