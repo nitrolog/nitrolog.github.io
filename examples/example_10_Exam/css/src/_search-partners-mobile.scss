@@ -1,0 +1,46 @@
+@media (min-width: 0px) {
+
+	.search-partner {
+		margin-top: 29px;
+	}
+
+	.search-partner__title-h2 {
+		font-family: $font-family-montserrat-bold;
+		font-size: 22px;
+		line-height: 24px;
+	}
+
+	.search-partner__title-h3 {
+		margin-top: 14px;
+		margin-bottom: 18px;
+		font-family: $font-family-roboto-light;
+		font-size: 18px;
+	}
+
+	.search-partner__search-field {
+		margin: 0 auto;
+		padding: 9px;
+		display: block;
+		width: 280px;
+		font-family: $font-family-roboto-light;
+		font-size: 14px;
+		color: #999999;
+		border: 1px solid #ccc;
+		border-radius: 4px;
+		box-sizing: border-box;
+	}
+
+	.search-partner__search-button {
+		margin-top: 12px;
+		padding: 11px;
+		width: 280px;
+		font-family: $font-family-montserrat-bold;
+		font-size: 14px;
+		background-color: $main-color-style;
+		color: white;
+		cursor: pointer;
+		border: none;
+		border-radius: 20px;
+	}
+
+}

@@ -1,0 +1,60 @@
+@media (min-width: 0px) {
+
+	footer {
+		margin-top: 40px;
+		border-top: 4px solid $main-color-style;
+		font-family: $font-family-montserrat-bold;
+	}
+
+	.footer-title {
+		padding-top: 20px;
+		color: $main-color-style;
+		font-size: 16px;
+		letter-spacing: 1px;
+	}
+
+	.menu-box {
+		padding-top: 13px;
+		font-size: 14px;
+	}
+
+	.menu-box__title {
+
+	}
+
+	.menu {
+		padding-top: 5px;
+	}
+
+	.menu__item {
+		padding-right: 9px;
+		display: inline-block;
+	}
+
+	.menu__item:last-child {
+		padding-right: 0;
+	}
+
+	.menu__link {
+		font-family: $font-family-roboto-light;
+		color: #666666;
+		text-decoration: none;
+	}
+
+	.partners-title {
+		padding-top: 16px;
+		font-size: 14px;
+	}
+
+	.designer {
+		padding-top: 16px;
+	}
+
+	.designer__title {
+		padding-bottom: 8px;
+		font-size: 10px;
+		color: #ccc;
+		letter-spacing: 1px;
+	}
+
+}

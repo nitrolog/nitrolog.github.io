@@ -1,0 +1,21 @@
+@media (min-width: 960px) {
+
+	header {
+		height: 700px;
+		background: url('../img/header-bg-desktop.jpg') no-repeat center center;
+		background-size: cover;
+	}
+
+	.container {
+		width: 940px;
+	}
+
+	.login-box {
+		padding-right: 0;
+	}
+
+	.header-logo {
+		padding-left: 0;
+	}
+
+}
