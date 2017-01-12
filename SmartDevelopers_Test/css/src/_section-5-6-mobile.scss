@@ -1,0 +1,74 @@
+@media screen and (min-width: 0px) {
+
+			/* ---------->>>   BEGIN PROMO-5   <<<<---------------*/
+	
+	.promo-5 {
+		height: 190px;
+		background: #563877 url(../img/promo-5-bg-mobile.jpg) right no-repeat;
+	}
+
+
+	
+		/*------------>>>>    BEGIN PROMO-6     <<<<<---------------*/
+
+	.simple-choice {
+		padding-bottom: 11px;
+	}
+
+	.simple-choice__item {
+		margin: 0 auto;
+		margin-bottom: 28px;
+		width: 261px;
+	}
+
+	.simple-choice__with-eyelashes {
+		width: 100%;
+	}
+
+	.simple-choice__price-wrapper {
+		margin-top: -26px;
+		padding-bottom: 60px;
+		position: relative;
+		background: url(../img/price-bg.png) no-repeat;
+		background-size: cover;
+		z-index: 20;
+	}
+
+	.simple-choice__price-title {
+		padding-top: 35px;
+		padding-bottom: 22px;
+		font-size: 23px;
+		font-family: $font-family-roboto-regular;
+		color: white;
+	}
+
+	.simple-choice__price {
+		font-size: 29px;
+		font-family: $font-family-roboto-black;
+		color: white;
+	}
+
+	.simple-choice__sign-btn {
+		margin-top: 31px;
+		padding: 14px 28px;
+		display: inline-block;
+		border-radius: 3px;
+		font-size: 21px;
+		font-family: $font-family-roboto-regular;
+		background-color: $bg-register-button;
+		color: white;
+		text-decoration: none;
+	}
+
+	.simple-choice__description {
+		margin-top: -35px;
+		padding: 45px 15px 21px;
+		border: 1px solid #641faa;
+		box-sizing: border-box;
+		font-size: 15px;
+		font-family: $font-family-roboto-thin;
+		line-height: 22px;
+		color: #333333;
+	}
+	
+}

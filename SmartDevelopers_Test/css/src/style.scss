@@ -1,0 +1,125 @@
+@import 'reset';
+@import 'variables';
+
+@font-face {
+    font-family: 'Roboto Light';
+    src: url('../fonts/roboto-light-webfont.woff2') format('woff2'),
+         url('../fonts/roboto-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto BlackItalic';
+    src: url('../fonts/roboto-blackitalic-webfont.woff2') format('woff2'),
+         url('../fonts/roboto-blackitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto Regular';
+    src: url('../fonts/roboto-regular-webfont.woff2') format('woff2'),
+         url('../fonts/roboto-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto Thin';
+    src: url('../fonts/roboto-thin-webfont.woff2') format('woff2'),
+         url('../fonts/roboto-thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto Black';
+    src: url('../fonts/roboto-black-webfont.woff2') format('woff2'),
+         url('../fonts/roboto-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto Bold';
+    src: url('../fonts/roboto-bold-webfont.woff2') format('woff2'),
+         url('../fonts/roboto-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto Italic';
+    src: url('../fonts/roboto-italic-webfont.woff2') format('woff2'),
+         url('../fonts/roboto-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cormorant Infant BoldItalic';
+    src: url('../fonts/cormorantinfant-bolditalic-webfont.woff2') format('woff2'),
+         url('../fonts/cormorantinfant-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+				/**     MOBILE    **/
+
+@import 'header-mobile';
+
+@import 'section-1-2-mobile';
+
+@import 'section-3-4-mobile';
+
+@import 'section-5-6-mobile';
+
+@import 'section-7-8-mobile';
+
+@import 'section-9-10-mobile';
+
+@import 'section-11-12-mobile';
+
+@import 'footer-mobile';
+
+
+
+                /**      TABLET       **/
+
+@import 'header-tablet';
+
+@import 'section-1-2-tablet';
+
+@import 'section-3-4-tablet';
+
+@import 'section-5-6-tablet';
+
+@import 'section-7-8-tablet';
+
+@import 'section-9-10-tablet';
+
+@import 'section-11-12-tablet';
+
+@import 'footer-tablet';
+
+
+
+                /**      DESKTOP       **/
+
+@import 'header-desktop';
+
+@import 'section-1-2-desktop';
+
+@import 'section-3-4-desktop';
+
+@import 'section-5-6-desktop';
+
+@import 'section-7-8-desktop';
+
+@import 'section-9-10-desktop';
+
+@import 'section-11-12-desktop';
+
+@import 'footer-desktop';

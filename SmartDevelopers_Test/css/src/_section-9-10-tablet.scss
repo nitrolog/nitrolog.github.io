@@ -1,0 +1,63 @@
+@media screen and (min-width: 768px) {
+
+			/* ---------->>>   BEGIN PROMO-7   <<<<---------------*/
+	
+	.promo-title-h2--promo-7-size {
+		padding-top: 23px;
+	}
+
+	.promo-title-h3--promo-7-size {
+		padding-top: 12px;
+	}
+
+	.promo-title-h4 {
+		padding-top: 18px;
+		padding-bottom: 26px;
+		font-size: 14px;
+	}
+
+
+	
+		/*------------>>>>    BEGIN SIGN SECTION     <<<<<---------------*/
+
+	.register__title-h2 {
+		width: auto;
+		font-size: 30px;
+	}
+
+	.register__title-h3 {
+		font-size: 20px;
+	}
+
+	.register__title-h4 {
+		width: auto;
+	}
+
+	.register__form {
+		margin-left: 70px;
+		float: left;
+	}
+
+	.gift {
+		margin-top: -15px;
+		margin-right: 17px;
+		position: relative;
+		float: right;
+	}
+
+	.gift__plus {
+		position: absolute;
+		top: 100px;
+		left: -70px;
+		font-size: 70px;
+	}
+
+	.gift__plus-txt {
+		display: none;
+	}
+
+	.gift__img {
+		width: 220px;
+	}
+
+}

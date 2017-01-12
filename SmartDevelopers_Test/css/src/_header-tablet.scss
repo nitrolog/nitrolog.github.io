@@ -1,0 +1,84 @@
+@media screen and (min-width: 768px) {
+
+	header {
+		height: 440px;
+		background: url('../img/header-bg-desktop.jpg') no-repeat center center;
+		background-size: cover;
+	}
+
+	.container {
+		padding: 0 10px;
+		width: 730px;
+	}
+
+	.header__content {
+		float: right;
+		width: 65%;
+	}
+
+	.menu-box {
+		position: static;
+		width: auto;
+	}
+
+	.menu-button {
+		display: none;
+	}
+
+	.menu {
+		margin-top: 13px;
+		display: block;
+		position: relative;
+		z-index: 10;
+	}
+
+	.menu__item {
+		margin-left: 10px;
+		display: inline-block;
+		background-color: transparent;
+	}
+
+	.menu__link {
+		display: inline;
+		padding: 0;
+		text-decoration: none;
+		font-size: 12px;
+		border-bottom: none;
+	}
+
+	.header-title-h1 {
+		position: relative;
+		padding: 45px 0 0;
+		max-width: none;
+		font-size: 38px;
+		z-index: 5;
+	}
+
+	.header-title-h2 {
+		padding: 19px 10px 20px 0;
+		max-width: none;
+		font-size: 21px;
+		line-height: 24px;
+	}
+
+	.header-girl-mobile {
+		display: none;
+	}
+
+	.header-girl-desktop {
+		position: absolute;
+		top: 0;
+		right: 51%;
+		margin-top: 0;
+		background: url('../img/header-girl-desktop.png') no-repeat;
+		background-size: cover;
+		width: 480px;
+		height: 440px;
+		z-index: 0;
+	}
+
+	.contacts {
+		margin: 0 70px 0 auto;
+	}
+
+}

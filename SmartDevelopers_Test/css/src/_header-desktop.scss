@@ -1,0 +1,91 @@
+@media screen and (min-width: 1210px) {
+
+	header {
+		height: 668px;
+	}
+
+	.container {
+		width: 1170px;
+	}
+
+	.menu {
+		float: right;
+		margin-top: 0;
+		padding-top: 38px;
+	}
+
+	.menu__item {
+		margin-left: 20px;
+	}
+
+	.menu__link {
+		font-size: 16px;
+	}
+
+	.header-title-h1 {
+		padding: 65px 0 0;
+		font-size: 56px;
+		text-align: right;
+	}
+
+	.header-title-h2 {
+		padding: 37px 0 43px 103px;
+		font-size: 35px;
+		line-height: 43px;
+	}
+
+	.header-girl-desktop {
+		right: 47%;
+		width: 720px;
+		height: 668px;
+	}
+
+	.contacts {
+		float: right;
+		margin: 0;
+		margin-right: 90px;
+		padding: 13px 10px 10px;
+		width: 352px;
+		font-size: 22px;
+	}
+
+	.contacts__title {
+		padding-bottom: 15px;
+	}
+
+	.contacts__info {
+		padding: 16px 0 18px;
+	}
+
+	.contacts__phone-icon {
+		width: 13px;
+		background: url('../img/icon-telecom-sprite.png') no-repeat 0px -7px;
+		transform: scale(1.2);
+	}
+
+	.contacts__phone {
+		margin-bottom: 21px;
+	}
+
+	.contacts__whatsapp-icon {
+		padding-right: 12px;
+		transform: scale(1.3);
+	}
+
+	.contacts__viber-icon {
+		padding-right: 2px;
+		transform: scale(1.3);
+	}
+
+	.contacts__address {
+		margin-top: 16px;
+		font-size: 18px;
+		line-height: 20px;
+	}
+
+	.contacts__sign-btn {
+		margin-top: 18px;
+		padding: 14px 22px;
+	}
+
+}

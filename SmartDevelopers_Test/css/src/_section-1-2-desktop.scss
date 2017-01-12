@@ -1,0 +1,81 @@
+@media screen and (min-width: 1210px) {
+
+			/* ---------->>>   BEGIN PROMO-1   <<<<---------------*/
+	
+	.promo-1 {
+		height: 141px;
+	}
+
+	.promo-title-h2 {
+		padding-top: 27px;
+		padding-left: 23px;
+		font-size: 48px;
+		line-height: 51px;
+	}
+
+	.promo-title-h3 {
+		padding-top: 0;
+		padding-left: 26px;
+		font-size: 28px;
+	}
+
+
+	
+		/*------------>>>>    BEGIN PROMO-2     <<<<<---------------*/
+
+	.promo-title-with-line {
+		padding-top: 28px;
+		padding-bottom: 45px;
+	}
+
+	.promo-title-with-line__title {
+		font-size: 47px;
+	}
+
+	.promo-title-with-line__title::before {
+		width: 28%;
+	}
+
+	.promo-title-with-line__title::after {
+		width: 28%;
+	}
+
+	.promo-2-item {
+		margin-bottom: 62px;
+		/*float: left;*/
+		/*width: 25%;*/
+	}
+
+	.promo-2-item__icon-box {
+		width: 59px;
+		height: 52px;
+	}
+
+	.promo-2-item__icon {
+		width: 44px;
+	}
+
+	.promo-2-item__icon--width-59px {
+		width: 59px;
+	}
+
+	.promo-2-item__icon--width-39px {
+		width: 39px;
+	}
+
+	.promo-2-item__title {
+		padding-top: 16px;
+		padding-bottom: 12px;
+		font-size: 26px;
+	}
+
+	.promo-2-item__content {
+		font-size: 16px;
+		line-height: 24px;
+	}
+
+	.promo-2-item__count {
+		font-size: 48px;
+	}
+
+}

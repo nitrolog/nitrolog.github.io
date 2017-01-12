@@ -1,0 +1,165 @@
+@media screen and (min-width: 0px) {
+
+			/* ---------->>>   BEGIN MY WORKS   <<<<---------------*/
+	
+	.my-works {
+		padding-bottom: 10px;
+		background: url(../img/promo-4-bg-mobile.jpg) no-repeat center center;
+		background-size: cover;
+	}
+
+	.my-works__jcarousel-wrapper {
+    	margin: 0 auto;
+    	position: relative;
+    	width: 270px;
+	}
+
+	/** MY WORKS CAROUSEL **/
+
+	.my-works__jcarousel {
+	    position: relative;
+	    overflow: hidden;
+	}
+
+	.my-works__jcarousel-list {
+	    width: 20000em;
+	    position: relative;
+	    list-style: none;
+	    margin: 0;
+	    padding: 0;
+	}
+
+	.my-works__jcarousel-item {
+	    float: left;
+	}
+
+	.my-works__jcarousel-img {
+	    display: block;
+	    max-width: 100%;
+	    height: auto !important;
+	}
+
+	/** MY WORKS CAROUSEL PAGINATION **/
+
+	.my-works__jcarousel-pagination {
+		padding-top: 17px;
+	}
+
+	.my-works__jcarousel-pagination a {
+	    margin-right: 12px;
+	    display: inline-block;
+	    text-decoration: none;
+	    height: 10px;
+	    width: 10px;
+	    background: transparent;
+	    text-indent: -9999px;
+	    border: 2px solid white;
+	    border-radius: 50%;
+	    box-sizing: border-box;
+	}
+
+	.my-works__jcarousel-pagination a:last-child {
+		margin-right: 0;
+	}
+
+	.my-works__jcarousel-pagination a.active {
+	    background: #1cb100;
+	    border: 2px solid #1cb100;
+	    opacity: 1;
+	}
+
+
+	
+		/*------------>>>>    BEGIN REVIEWS     <<<<<---------------*/
+
+	.reviews {
+		padding-bottom: 19px;
+		background: #eaeaea;
+	}
+
+	.reviews__jcarousel-wrapper {
+    	margin: 0 auto;
+    	position: relative;
+    	width: 270px;
+	}
+
+	/** REVIEWS CAROUSEL **/
+
+	.reviews__jcarousel {
+	    position: relative;
+	    overflow: hidden;
+	}
+
+	.reviews__jcarousel-list {
+	    width: 20000em;
+	    position: relative;
+	    list-style: none;
+	    margin: 0;
+	    padding: 0;
+	}
+
+	.reviews__jcarousel-item {
+	    float: left;
+	}
+
+	.reviews__jcarousel-img {
+	    display: block;
+	    max-width: 100%;
+	    height: auto !important;
+	}
+
+	/** REVIEWS CAROUSEL PAGINATION **/
+
+	.reviews__jcarousel-pagination {
+		padding-top: 26px;
+	}
+
+	.reviews__jcarousel-pagination a {
+	    margin-right: 12px;
+	    display: inline-block;
+	    text-decoration: none;
+	    height: 10px;
+	    width: 10px;
+	    background: transparent;
+	    text-indent: -9999px;
+	    border: 2px solid #641faa;
+	    border-radius: 50%;
+	    box-sizing: border-box;
+	}
+
+	.reviews__jcarousel-pagination a:last-child {
+		margin-right: 0;
+	}
+
+	.reviews__jcarousel-pagination a.active {
+	    background: #641faa;
+	    opacity: 1;
+	}
+
+	.reviews__jcarousel-control-prev,
+    .reviews__jcarousel-control-next {
+        display: none;
+    }
+
+    .reviews__avatar-name {
+		padding-top: 16px;
+		padding-bottom: 10px;
+		width: 270px;
+		font-size: 24px;
+		font-family: $font-family-roboto-light;
+		color: #6e15b3;
+		text-align: left;
+    }
+
+    .reviews__content {
+    	padding-top: 4px;
+		width: 250px;
+		font-size: 14px;
+		font-family: $font-family-roboto-italic;
+		line-height: 16px;
+		color: #333333;
+		text-align: left;
+    }
+
+	
+}

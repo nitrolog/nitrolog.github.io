@@ -1,0 +1,68 @@
+@media screen and (min-width: 768px) {
+
+			/* ---------->>>   BEGIN PROMO-5   <<<<---------------*/
+	
+	.promo-5 {
+		height: 113px;
+		background: #563877;
+	}
+
+	.container--promo-5-bg-desktop {
+		height: 100%;
+		background: url(../img/promo-5-bg-desktop.jpg) left no-repeat;
+		background-size: auto 100%;
+	}
+
+	.promo-title-h2--promo-5-desktop {
+		padding-left: 35%;
+	}
+
+	.promo-title-h3--promo-5-desktop {
+		padding-left: 35%;
+		font-size: 13px;
+	}
+
+
+	
+		/*------------>>>>    BEGIN PROMO-6     <<<<<---------------*/
+
+	.simple-choice__item {
+		padding: 0 5px;
+		float: left;
+		width: 25%;
+		box-sizing: border-box;
+	}
+
+	.simple-choice__with-eyelashes {
+		width: 100%;
+	}
+
+	.simple-choice__price-wrapper {
+		padding-bottom: 55px;
+		background: url(../img/price-bg.png) center no-repeat;
+		background-size: cover;
+	}
+
+	.simple-choice__price-title {
+		padding-top: 29px;
+		padding-bottom: 14px;
+		font-size: 16px;
+	}
+
+	.simple-choice__price {
+		font-size: 19px;
+	}
+
+	.simple-choice__sign-btn {
+		margin-top: 20px;
+		padding: 9px 19px;
+		font-size: 14px;
+	}
+
+	.simple-choice__description {
+		padding: 38px 0 15px;
+		font-size: 11px;
+		line-height: 16px;
+	}
+	
+}

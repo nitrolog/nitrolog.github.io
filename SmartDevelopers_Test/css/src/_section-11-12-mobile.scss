@@ -1,0 +1,114 @@
+@media screen and (min-width: 0px) {
+
+			/* ---------->>>   BEGIN QUESTION-ANSWER   <<<<---------------*/
+	
+	.question-answer {
+		padding-bottom: 45px;
+		background: url(../img/promo-4-bg-mobile.jpg) no-repeat center center;
+		background-size: cover;
+	}
+
+	.question-answer__item {
+		margin-bottom: 25px;
+	}
+
+	.question {
+		margin: 0 auto;
+		padding: 10px;
+		width: 65%;
+		font-size: 16px;
+		font-family: $font-family-roboto-thin;
+		color: white;
+		line-height: 19px;
+		border: 1px solid transparent;
+	}
+
+	.question:hover {
+		border: 1px solid white;
+		cursor: pointer;
+	}
+
+	.question--is-active {
+		border: 1px solid white;
+	}
+
+	.answer {
+		position: relative;
+		margin: 0 auto;
+		margin-top: 28px;
+		padding: 16px;
+		display: none;
+		width: 80%;
+		font-size: 14px;
+		font-family: $font-family-roboto-light;
+		color: #333333;
+		background-color: white;
+		line-height: 22px;
+		text-align: left;
+	}
+
+	.answer::before {
+		position: absolute;
+		top: -15px;
+		left: 50%;
+		content: "";
+		width: 40px;
+		height: 15px;
+		background: url(../img/active-answer-cursor.png) no-repeat;
+		transform: translateX(-50%);
+	}
+
+	.answer--is-active {
+		display: block;
+	}
+
+
+	
+		/*------------>>>>    BEGIN MAP     <<<<<---------------*/
+
+	.map {
+		height: 415px;
+	}
+
+	.contacts__info--footer {
+		padding-left: 20px;
+		font-family: $font-family-roboto-light;
+		background-color: #641faa;
+	}
+
+	.contacts__location-icon {
+		margin-top: 16px;
+		display: inline-block;
+		width: 12px;
+		height: 17px;
+		vertical-align: top;
+		background: url(../img/icon-telecom-sprite.png) no-repeat -32px -6px;
+	}
+
+	.contacts__address--footer {
+		display: inline-block;
+		padding-top: 5px;
+		padding-bottom: 30px;
+		padding-left: 9px;
+		font-size: 18px;
+		color: white;
+		line-height: 28px;
+	}
+
+	.contacts__phone-icon--footer {
+		background: url(../img/icon-telecom-sprite.png) no-repeat -16px -6px;
+	}
+
+	.contacts__phone--footer {
+		margin-bottom: 21px;
+		padding-left: 10px;
+		font-size: 18px;
+		color: white;
+	}
+
+	.contacts__whatsapp-icon--footer {
+		margin-right: 5px;
+		margin-left: 26px;
+	}
+
+}

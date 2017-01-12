@@ -1,0 +1,180 @@
+@media screen and (min-width: 0px) {
+
+	header {
+		position: relative;
+		height: 804px;
+		background: url('../img/header-bg-desktop.jpg') no-repeat center center;
+		background-size: cover;
+	}
+
+	.clearfix::after {
+		content: "";
+		display: block;
+		clear: both;
+	}
+
+	.container {
+		margin: 0 auto;
+		padding: 0 20px;
+		min-width: 300px;
+		text-align: center;
+	}
+
+	.menu-box {
+		position: absolute;
+		top: 21px;
+		left: 21px;
+		width: 260px;
+	}
+
+	.menu-button {
+		position: relative;
+		width: 23px;
+		height: 15px;
+	}
+
+	.menu-button__inner {
+		position: absolute;
+		margin-top: -1px;
+		top: 50%;
+		width: 100%;
+		height: 1px;
+		background-color: white;
+	}
+
+	.menu-button__inner::before {
+		content: "";
+		position: absolute;
+		bottom: 7px;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-color: inherit;
+	}
+
+	.menu-button__inner::after {
+		content: "";
+		position: absolute;
+		top: 7px;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-color: inherit;
+	}
+
+	.menu {
+		display: none;
+	}
+
+	.menu__item {
+		display: block;
+		background-color: #641faa;
+	}
+
+	.menu__link {
+		padding: 15px 0;
+		display: block;
+		text-decoration: none;
+		font-family: $font-family-roboto-thin;
+		font-size: 16px;
+		color: white;
+		border-bottom: 1px solid #403151;
+	}
+
+	.header-title-h1 {
+		margin: 0 auto;
+		padding: 45px 15px 0;
+		max-width: 225px;
+		font-family: $font-family-cormorant-infant-bold-italic;
+		font-size: 40px;
+		line-height: 48px;
+		color: white;
+	}
+
+	.header-title-h2 {
+		margin: 0 auto;
+		padding: 25px 42px 0;
+		max-width: 175px;
+		font-family: $font-family-roboto-light;
+		font-size: 16px;
+		line-height: 19px;
+		color: white;
+	}
+
+	.header-girl-mobile {
+		margin: 0 auto;
+		margin-top: 32px;
+		background: url('../img/header-girl-mobile.png') no-repeat;
+		width: 221px;
+		height: 234px;
+	}
+
+	.contacts {
+		margin: 0 auto;
+		padding: 10px 5px 5px;
+		border-radius: 3px;
+		background-color: #641faa;
+		width: 260px;
+		box-sizing: border-box;
+		font-family: $font-family-roboto-light;
+		font-size: 16px;
+		color: white;
+	}
+
+	.contacts__title {
+		padding-bottom: 10px;
+	}
+
+	.contacts__info {
+		padding: 13px 0 18px;
+		background-color: white;
+	}
+
+	.contacts__phone-icon {
+		display: inline-block;
+		width: 12px;
+		height: 14px;
+		background: url('../img/icon-telecom-sprite.png') no-repeat 0px -5px;
+	}
+
+	.contacts__phone {
+		margin-bottom: 12px;
+		padding-right: 12px;
+		display: inline-block;
+		color: #641faa;
+	}
+
+	.contacts__whatsapp-icon {
+		display: inline-block;
+		width: 28px;
+		height: 28px;
+		background: url(../img/icon-telecom-sprite.png) no-repeat -57px 0;
+	}
+
+	.contacts__viber-icon {
+		padding-right: 5px;
+		display: inline-block;
+		width: 28px;
+		height: 28px;
+		background: url(../img/icon-telecom-sprite.png) no-repeat -91px 0;
+	}
+
+	.contacts__address {
+		margin-top: 6px;
+		font-size: 14px;
+		line-height: 17px;
+		color: #641faa;
+	}
+
+	.contacts__sign-btn {
+		margin-top: 11px;
+		padding: 10px 17px;
+		display: inline-block;
+		border-radius: 3px;
+		font-family: $font-family-roboto-bold;
+		background-color: $bg-register-button;
+		color: white;
+		text-decoration: none;
+	}
+
+}

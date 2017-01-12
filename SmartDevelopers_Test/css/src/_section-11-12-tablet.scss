@@ -1,0 +1,92 @@
+@media screen and (min-width: 768px) {
+
+			/* ---------->>>   BEGIN QUESTION-ANSWER   <<<<---------------*/
+	
+	.question-answer {
+		padding-bottom: 45px;
+		background: url(../img/bg-desktop.jpg) no-repeat center center;
+		background-size: cover;
+	}
+
+	.question-answer .promo-title-with-line__title--white::before {
+		width: 35%;
+	}
+
+	.question-answer .promo-title-with-line__title--white::after {
+		width: 35%;
+	}
+
+	.question-answer__list {
+		margin: 0 auto;
+		position: relative;
+		width: 95%;
+	}
+
+	.question-answer__item {
+		margin-bottom: 10px;
+	}
+
+	.question {
+		margin: 0;
+		padding: 17px 14px;
+		width: 30%;
+		font-size: 13px;
+		text-align: left;
+	}
+
+	.question--is-active {
+		border: 1px solid white;
+	}
+
+	.answer {
+		position: absolute;
+		top: 0;
+		right: 0;
+		margin-top: 0;
+		padding: 16px;
+		width: 55%;
+		height: 360px;
+		font-size: 13px;
+	}
+
+	.answer::before {
+		position: absolute;
+		top: 19px;
+		left: -25px;
+		transform: rotate(-90deg);
+	}
+
+	.question-answer__item:nth-child(2) .answer::before {
+		top: 93px;
+	}
+
+	.question-answer__item:nth-child(3) .answer::before {
+		top: 176px;
+	}
+
+	.question-answer__item:nth-child(4) .answer::before {
+		top: 260px;
+	}
+
+	.question-answer__item:nth-child(5) .answer::before {
+		top: 342px;
+	}
+
+
+	
+		/*------------>>>>    BEGIN MAP     <<<<<---------------*/
+
+	.location {
+		position: relative;
+	}
+
+	.contacts__info--footer {
+		position: absolute;
+		top: 25%;
+		right: 10%;
+		padding-right: 20px;
+		padding-left: 20px;
+		opacity: 0.8;
+	}
+
+}

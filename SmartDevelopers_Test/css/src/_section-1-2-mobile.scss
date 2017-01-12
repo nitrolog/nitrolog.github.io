@@ -1,0 +1,91 @@
+@media screen and (min-width: 0px) {
+
+			/* ---------->>>   BEGIN PROMO-1   <<<<---------------*/
+	
+	.promo-1 {
+		height: 191px;
+		background: #121418 url(../img/promo-1-bg-mobile.jpg) right no-repeat;
+	}
+
+	.promo-title-h2 {
+		padding-top: 25px;
+		font-size: 28px;
+		font-family: $font-family-cormorant-infant-bold-italic;
+		line-height: 34px;
+		color: white;
+		text-align: left;
+	}
+
+	.promo-title-h3 {
+		padding-top: 14px;
+		font-size: 16px;
+		font-family: $font-family-roboto-thin;
+		line-height: 19px;
+		color: white;
+		text-align: left;
+	}
+
+
+	
+		/*------------>>>>    BEGIN PROMO-2     <<<<<---------------*/
+
+	.promo-title-with-line {
+		padding-top: 31px;
+		padding-bottom: 40px;
+		position: relative;
+	}
+
+	.promo-title-with-line__title {
+		display: block;
+		padding: 0 20px;
+		position: relative;
+		font-family: $font-family-roboto-thin;
+		font-size: 24px;
+		color: #641faa;
+	}
+
+	.promo-2 {
+		padding-bottom: 28px;
+	}
+
+	.promo-2-item {
+		margin: 0 auto;
+		margin-bottom: 28px;
+	}
+
+	.promo-2-item__icon {
+		width: 39px;
+	}
+
+	.promo-2-item__icon--width-48px {
+		width: 48px;
+	}
+
+	.promo-2-item__icon--width-32px {
+		width: 32px;
+	}
+
+	.promo-2-item__title {
+		padding-top: 13px;
+		padding-bottom: 8px;
+		font-size: 23px;
+		font-family: $font-family-roboto-bold;
+		color: #641faa;
+	}
+
+	.promo-2-item__content {
+		font-size: 13px;
+		font-family: $font-family-roboto-thin;
+		line-height: 21px;
+		color: #333333;
+	}
+
+	.promo-2-item__count {
+		padding-bottom: 12px;
+		display: block;
+		font-size: 39px;
+		font-family: $font-family-roboto-black;
+		color: #641faa;
+	}
+
+}

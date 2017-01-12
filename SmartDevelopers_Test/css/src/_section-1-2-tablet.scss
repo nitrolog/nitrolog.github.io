@@ -1,0 +1,103 @@
+@media screen and (min-width: 768px) {
+
+			/* ---------->>>   BEGIN PROMO-1   <<<<---------------*/
+	
+	.promo-1 {
+		height: 96px;
+		background: #1c1f25;
+	}
+
+	.container--promo-1-bg-desktop {
+		height: 100%;
+		background: url(../img/promo-1-bg-desktop.jpg) right no-repeat;
+		background-size: auto 100%;
+	}
+
+	.is-hidden {
+		display: none;
+	}
+
+	.promo-title-h2 {
+		padding-top: 12px;
+		font-size: 32px;
+		line-height: normal;
+	}
+
+	.promo-title-h3 {
+		padding-top: 0;
+		font-size: 19px;
+		line-height: normal;
+	}
+
+
+	
+		/*------------>>>>    BEGIN PROMO-2     <<<<<---------------*/
+
+	.promo-title-with-line {
+		padding-top: 31px;
+		padding-bottom: 40px;
+		position: relative;
+	}
+
+	.promo-title-with-line__title::before {
+		position: absolute;
+		content: "";
+		top: 50%;
+		left: 0;
+		width: 30%;
+		height: 1px;
+		background-color: #641faa;
+	}
+
+	.promo-title-with-line__title::after {
+		position: absolute;
+		content: "";
+		top: 50%;
+		right: 0;
+		width: 30%;
+		height: 1px;
+		background-color: #641faa;
+	}
+
+	.promo-2 {
+		padding-bottom: 0;
+	}
+
+	.promo-2-item {
+		float: left;
+		width: 25%;
+	}
+
+	.promo-2-item:nth-child(6) {
+		width: 31%;
+	}
+
+	.promo-2-item:nth-child(7) {
+		width: 45%;
+	}
+
+	.promo-2-item:nth-child(8) {
+		width: 24%;
+	}
+
+	.promo-2-item__icon-box {
+		margin: 0 auto;
+		width: 41px;
+		height: 37px;
+		text-align: center;
+		vertical-align: middle;
+	}
+
+	.promo-2-item__title {
+		font-size: 18px;
+	}
+
+	.promo-2-item__content {
+		font-size: 11px;
+	}
+
+	.promo-2-item__count {
+		font-size: 32px;
+	}
+
+}

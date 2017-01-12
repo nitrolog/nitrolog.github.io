@@ -1,0 +1,36 @@
+@media screen and (min-width: 0px) {
+
+	footer {
+		padding-top: 27px;
+		padding-bottom: 20px;
+		font-size: 14px;
+		font-family: $font-family-roboto-bold;
+		background-color: #eaeaea;
+		color: #9c9c9c;
+	}
+
+	.privacy-policy {
+		line-height: 16px;
+		text-decoration: none;
+		color: #9c9c9c;
+	}
+
+	.about {
+		padding-top: 29px;
+		padding-bottom: 34px;
+		line-height: 16px;
+	}
+
+	.design-logo {
+		width: 133px;
+	}
+
+	.footer__content {
+		padding-top: 22px;
+		font-size: 12px;
+		font-family: $font-family-roboto-light;
+		line-height: 15px;
+		text-align: left;
+	}
+
+}

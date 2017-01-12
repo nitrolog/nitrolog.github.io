@@ -1,0 +1,89 @@
+@media screen and (min-width: 1210px) {
+
+			/* ---------->>>   BEGIN MY WORKS   <<<<---------------*/
+	
+	.my-works .promo-title-with-line__title--white::before {
+		width: 34%;
+	}
+
+	.my-works .promo-title-with-line__title--white::after {
+		width: 34%;
+	}
+
+	.my-works {
+		padding-top: 24px;
+		padding-bottom: 34px;
+	}
+
+	.my-works__jcarousel-wrapper {
+		margin-top: -16px;
+    	width: 100%;
+	}
+
+	.my-works__jcarousel-item {
+	    width: 270px;
+	}
+
+	.my-works__jcarousel-pagination {
+		padding-top: 36px;
+	}
+
+	.my-works__jcarousel-pagination a {
+	    margin-right: 12px;
+	    height: 16px;
+	    width: 16px;
+	}
+
+
+	
+		/*------------>>>>    BEGIN REVIEWS     <<<<<---------------*/
+
+	.reviews {
+		padding-top: 7px;
+		padding-bottom: 0;
+	}
+
+	.reviews .promo-title-with-line__title::before {
+		width: 40%;
+	}
+
+	.reviews .promo-title-with-line__title::after{
+		width: 40%;
+	}
+
+	.reviews__girl-bg-desktop {
+		margin-top: -68px;
+		float: left;
+		width: 399px;
+		height: 450px;
+		background: url(../img/reviews-bg-girl-desktop.png) no-repeat;
+	}
+
+	.reviews__jcarousel-wrapper {
+		margin-top: 45px;
+    	margin-right: 170px;
+		float: right;
+	}
+
+	.reviews__jcarousel-img {
+	    width: 241px;
+	}
+
+    .reviews__jcarousel-control-prev {
+		top: 121px;
+    }
+
+    .reviews__jcarousel-control-next {
+    	top: 54px;
+    }
+
+    .reviews__avatar-name {
+    	margin-left: 263px;
+    }
+
+    .reviews__content {
+    	margin-left: 263px;
+    }
+
+	
+}

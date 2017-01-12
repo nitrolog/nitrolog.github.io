@@ -1,0 +1,99 @@
+@media screen and (min-width: 768px) {
+
+			/* ---------->>>   BEGIN MY WORKS   <<<<---------------*/
+	
+	.my-works .promo-title-with-line__title--white::before {
+		width: 35%;
+	}
+
+	.my-works .promo-title-with-line__title--white::after {
+		width: 35%;
+	}
+
+	.my-works {
+		padding-bottom: 15px;
+		background: url(../img/bg-desktop.jpg) no-repeat center center;
+		background-size: 100% auto;
+	}
+
+	.my-works__jcarousel-wrapper {
+    	width: 450px;
+	}
+
+	.my-works__jcarousel-item {
+		padding-right: 30px;
+	    width: 200px;
+	}
+
+
+	
+		/*------------>>>>    BEGIN REVIEWS     <<<<<---------------*/
+
+	.reviews {
+		padding-bottom: 45px;
+	}
+
+	.reviews .promo-title-with-line__title::before {
+		width: 40%;
+	}
+
+	.reviews .promo-title-with-line__title::after{
+		width: 40%;
+	}
+
+	.reviews__jcarousel-wrapper {
+    	margin-left: 50px;
+    	width: 500px;
+	}
+
+	.reviews__jcarousel-item {
+	    width: 500px;
+	}
+
+	.reviews__jcarousel-img {
+		float: left;
+	    width: 200px;
+	}
+
+	/** REVIEWS CAROUSEL PAGINATION **/
+
+	.reviews__jcarousel-pagination {
+		display: none;
+	}
+
+	.reviews__jcarousel-control-prev,
+    .reviews__jcarousel-control-next {
+        display: block;
+        position: absolute;
+        right: -170px;
+        width: 48px;
+        height: 48px;
+        font-size: 30px;
+        font-family: $font-family-roboto-regular;
+        line-height: 42px;
+        background-color: #6e15b3;
+        text-decoration: none;
+        color: white;
+    }
+
+    .reviews__jcarousel-control-prev {
+		top: 90px;
+    }
+
+    .reviews__jcarousel-control-next {
+    	top: 25px;
+    }
+
+    .reviews__avatar-name {
+    	margin-left: 220px;
+		padding-top: 0;
+		width: auto;
+    }
+
+    .reviews__content {
+    	margin-left: 220px;
+		width: auto;
+    }
+
+	
+}

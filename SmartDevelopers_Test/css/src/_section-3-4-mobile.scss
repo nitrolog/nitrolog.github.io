@@ -1,0 +1,125 @@
+@media screen and (min-width: 0px) {
+
+			/* ---------->>>   BEGIN PROMO-3   <<<<---------------*/
+	
+	.promo-3 {
+		height: 265px;
+		background: #121418 url(../img/promo-3-bg-mobile.jpg) center center no-repeat;
+		background-size: cover;
+	}
+
+
+	
+		/*------------>>>>    BEGIN PROMO-4     <<<<<---------------*/
+
+	.promo-4 {
+		background: url(../img/promo-4-bg-mobile.jpg) no-repeat center center;
+		background-size: cover;
+	}
+
+	.promo-title-with-line__title--white {
+		color: white;
+		line-height: 31px;
+	}
+
+	.eyes-before-after {
+		margin: 0 auto;
+		position: relative;
+		width: 280px;
+	}
+
+	.eyes-before-after__before {
+		position: absolute;
+		top: 8%;
+		right: 55%;
+		font-size: 12px;
+		font-family: $font-family-roboto-thin;
+		color: white;
+	}
+
+	.eyes-before-after__after {
+		position: absolute;
+		top: 8%;
+		right: 2%;
+		font-size: 12px;
+		font-family: $font-family-roboto-thin;
+		color: white;
+	}
+
+	.eyes-before-after__img {
+		width: 100%;
+	}
+
+	.promo-4-article {
+		padding-top: 20px;
+		float: right;
+		text-align: left;
+	}
+
+	.promo-4-article__title {
+		padding-bottom: 20px;
+		font-size: 18px;
+		font-family: $font-family-roboto-black-italic;
+		color: white;
+	}
+
+	.promo-4-article__content {
+		font-size: 14px;
+		font-family: $font-family-roboto-thin;
+		color: #d09eed;
+		line-height: 22px;
+	}
+
+	.promo-4-footer {
+		float: left;
+		width: 100%;
+		padding-top: 50px;
+		padding-bottom: 22px;
+	}
+
+	.promo-4-footer__item {
+		margin: 0 auto;
+		padding-bottom: 30px;
+		display: inline-block;
+		width: 45%;
+		vertical-align: top;
+	}
+
+	.promo-4-footer__icon-wrapper {
+		margin: 0 auto;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 45px;
+		height: 40px;
+	}
+
+	.promo-4-footer__icon {
+		width: 31px;
+	}
+
+	.promo-4-footer__icon--width-41px {
+		width: 41px;
+	}
+
+	.promo-4-footer__icon--width-29px {
+		width: 29px;
+	}
+
+	.promo-4-footer__icon--width-15px {
+		width: 15px;
+	}
+
+	.promo-4-footer__icon--width-39px {
+		width: 39px;
+	}
+
+	.promo-4-footer__content {
+		padding-top: 7px;
+		font-size: 14px;
+		font-family: $font-family-roboto-light;
+		line-height: 16px;
+		color: white;
+	}
+	
+}

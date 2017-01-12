@@ -1,0 +1,100 @@
+@media screen and (min-width: 1210px) {
+
+			/* ---------->>>   BEGIN PROMO-5   <<<<---------------*/
+	
+	.promo-5 {
+		height: 169px;
+	}
+
+	.promo-title-h2--promo-5-desktop {
+		padding-top: 40px;
+		padding-left: 34%;
+		font-size: 48px;
+		line-height: 41px;
+	}
+
+	.promo-title-h3--promo-5-desktop {
+		padding-left: 34%;
+		font-size: 35px;
+	}
+
+
+	
+		/*------------>>>>    BEGIN PROMO-6     <<<<<---------------*/
+
+	.simple-choice {
+		padding-top: 8px;
+		padding-bottom: 28px;
+	}
+
+	.simple-choice .promo-title-with-line__title::before {
+		width: 31%;
+	}
+
+	.simple-choice .promo-title-with-line__title::after {
+		width: 31%;
+	}
+
+	.simple-choice__item {
+		position: relative;
+		padding-left: 0;
+		padding-right: 31px;
+		width: 23%;
+		box-sizing: inherit;
+	}
+
+	.simple-choice__without-eyelashes {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 50%;
+		height: 233px;
+	}
+
+	.simple-choice__without-eyelashes--photo-1 {
+		background: url(../img/without-eyelashes-choice-1.jpg) no-repeat;
+	}
+
+	.simple-choice__without-eyelashes--photo-2 {
+		background: url(../img/without-eyelashes-choice-2.jpg) no-repeat;
+	}
+
+	.simple-choice__without-eyelashes--photo-3 {
+		background: url(../img/without-eyelashes-choice-3.jpg) no-repeat;
+	}
+
+	.simple-choice__without-eyelashes--photo-4 {
+		background: url(../img/without-eyelashes-choice-4.jpg) no-repeat;
+	}
+
+	.simple-choice__item:last-child {
+		padding-right: 0;
+	}
+
+	.simple-choice__price-wrapper {
+		padding-bottom: 60px;
+	}
+
+	.simple-choice__price-title {
+		padding-top: 34px;
+		padding-bottom: 25px;
+		font-size: 24px;
+	}
+
+	.simple-choice__price {
+		font-size: 30px;
+	}
+
+	.simple-choice__sign-btn {
+		margin-top: 32px;
+		padding: 14px 28px;
+		font-size: 22px;
+	}
+
+	.simple-choice__description {
+		padding: 47px 12px 37px;
+		font-size: 16px;
+		line-height: 23px;
+	}
+	
+}
