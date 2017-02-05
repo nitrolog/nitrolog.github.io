@@ -10,6 +10,15 @@
 	.c-logo-part ul li{ margin:0 15px;}
 	.form{ margin:0 0 0 20px}
 	.main-nav{ display:block !important; }
+	.main-nav li a{margin: 15px 15px;}
+	.Portfolio-nav li a{margin-bottom: 15px;}
+	.row {
+		display: block;
+	}
+	.client li a {
+		width: 28%;
+		padding-bottom: 30px;
+	}
 	/*.portfolioContainer{ width:800px; margin:0px auto !important; } */ 
 	
 }	
@@ -19,7 +28,7 @@
 	body{ font-size:13px;}
 	p{ line-height:20px ;}
 	.header h1{ font-size:46px;}
-	.main-nav ul li a{ padding:14px;}
+	/*.main-nav ul li a{ padding:14px;}*/
 	.small-logo{ padding:0 20px;}
 	h2{ font-size:30px}
 	h6{ font-size:16px;}
@@ -35,7 +44,18 @@
 	.social-link{ margin:0;}
 	
 	.main-nav{ display:block !important; }
-	.main-nav li a{ padding:8px 15px;}
+	.main-nav li a{
+		margin: 10px 10px;
+		padding: 0;
+	}
+	.Portfolio-nav li a{margin-bottom: 15px;}
+	.row {
+		display: block;
+	}
+	.client li a {
+		width: 28%;
+		padding-bottom: 30px;
+	}
 	/*.portfolioContainer{ width:750px; margin:0px auto !important; }
 	.Portfolio-box{ height:250px;}*/
 	
@@ -78,10 +98,29 @@
 	.main-section.contact{ padding:60px 0 70px}
 	.client-part-haead{ font-size:20px; line-height:30px;}
 	.link{ font-size:14px; padding:10px 25px;}
-	.logo{ width:100px;}
+	.logo{ width:180px;}
 	.main-section.contact{ background-size:contain;}
-	.Portfolio-nav li a{ padding:5px 16px;}
+	.Portfolio-nav li a{ 
+		margin-bottom: 10px;
+		padding:5px 16px;
+	}
 	.Portfolio-nav li{ display:block;}
+	.row {
+		display: block;
+	}
+	figure {
+		text-align: center;
+	}
+	.featured-work h2 {
+		text-align: center;
+	}
+	.client li {
+		width: 48%;
+		
+	}
+	.client li a {
+		padding-bottom: 30px;
+	}
 	/*.isotope-item img{ width:300px; left:50%; margin-left:-100px;}
 	.isotope-item{ width:300px; margin:0px auto;}
 	.isotope{ width:400px; margin:0px auto;}
@@ -98,7 +137,7 @@
 	.social-link{ margin-left:0px;}
 	.form{ margin:0}
 	.c-logo-part ul li{ display:block;}
-	.Portfolio-box{  max-width:300px !important; width:96.4% !important; margin:0 !important}
+	.Portfolio-box{  max-width:300px !important; width:96.4% !important; margin:0 !important; margin-bottom: 10px;}
 	.Portfolio-box img { max-width:100%;}
 	.portfolioContainer{ width:280px !important; margin:0 auto !important } 
 	
