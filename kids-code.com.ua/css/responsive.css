@@ -76,6 +76,9 @@
 		width: 28%;
 		padding-bottom: 30px;
 	}
+	.logo {
+		width: 300px;
+	}
 	/*.portfolioContainer{ width:750px; margin:0px auto !important; }
 	.Portfolio-box{ height:250px;}*/
 	
