@@ -192,6 +192,7 @@ color: #fff;
 	display:inline-block;
 	margin:0 1px;
 }
+
 .main-nav li a{
 	display:inline-block;
 	color:#222222;
@@ -211,7 +212,7 @@ color: #fff;
 }
 
 .small-logo{
-	width: 190px;
+	width: 150px;
 	/*padding:0 32px;*/
 }
 

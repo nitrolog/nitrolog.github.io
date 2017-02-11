@@ -3,6 +3,7 @@
    ========================================================================== */
 
 
+
 @media only screen and (min-width: 992px) {
 	/****Ipad Landscape 1024 Container 970 ****/
 	
@@ -10,7 +11,13 @@
 	.c-logo-part ul li{ margin:0 15px;}
 	.form{ margin:0 0 0 20px}
 	.main-nav{ display:block !important; }
-	.main-nav li a{margin: 15px 15px;}
+	.main-nav li {
+		width: 110px;
+	}
+	.main-nav li a{
+		margin: 15px 0;
+		/*width: 135px;*/
+	}
 	.Portfolio-nav li a{margin-bottom: 15px;}
 	.row {
 		display: block;
@@ -21,6 +28,15 @@
 	}
 	/*.portfolioContainer{ width:800px; margin:0px auto !important; } */ 
 	
+}
+
+@media only screen and (min-width: 1200px) {
+	.client li a {
+		width: 14%;
+	}
+	.main-nav li {
+		width: 135px;
+	}
 }	
    
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -29,7 +45,7 @@
 	p{ line-height:20px ;}
 	.header h1{ font-size:46px;}
 	/*.main-nav ul li a{ padding:14px;}*/
-	.small-logo{ padding:0 20px;}
+	.small-logo{ padding:0;}
 	h2{ font-size:30px}
 	h6{ font-size:16px;}
 	h3{ font-size:15px;}
@@ -44,9 +60,13 @@
 	.social-link{ margin:0;}
 	
 	.main-nav{ display:block !important; }
+	.main-nav li {
+		width: 95px;
+	}
 	.main-nav li a{
-		margin: 10px 10px;
+		margin: 10px 0;
 		padding: 0;
+		font-size: 12px;
 	}
 	.Portfolio-nav li a{margin-bottom: 15px;}
 	.row {
@@ -75,7 +95,7 @@
 	.header h1{ font-size:28px;}
 	.header{ padding:60px 0;}
 	.main-section{ padding:60px 0 70px;}
-	.main-nav{ display:none; position:absolute; left:0; width:100%; top:74px; margin:0 auto; flote : none; background:#fff;}
+	.main-nav{ display:none; position:absolute; left:0; width:100%; top:74px; margin:0 auto; flote : none; background:#fff; z-index: 1000;}
 	.main-nav li{ display:block;}
 	.main-nav li.small-logo{ display:none;}
 	.main-nav li a{ display:block; padding:7px 32px; border-bottom:none;}
@@ -137,8 +157,11 @@
 	.social-link{ margin-left:0px;}
 	.form{ margin:0}
 	.c-logo-part ul li{ display:block;}
-	.Portfolio-box{  max-width:300px !important; width:96.4% !important; margin:0 !important; margin-bottom: 10px;}
+	.Portfolio-box{  max-width:300px !important; width:96.4% !important; margin: 0 auto; margin-bottom: 30px; height: auto;}
 	.Portfolio-box img { max-width:100%;}
-	.portfolioContainer{ width:280px !important; margin:0 auto !important } 
+	.portfolioContainer{ width:280px !important; margin:0 auto !important }
+	h4 {
+		font-size: 15px;
+	}
 	
 }
