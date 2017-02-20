@@ -153,7 +153,7 @@ color: #fff;
 	font-weight:400;
 	font-family: 'Montserrat', sans-serif;
 	display:inline-block;
-	border-radius:3px;
+	/*border-radius:3px;*/
 	text-transform:uppercase;
 	line-height:25px;
 	margin-bottom:20px;
@@ -335,7 +335,7 @@ color: #fff;
 	font-size:12px;
 	line-height:20px;
 	color:#222222;
-	border-radius:4px;
+	/*border-radius:4px;*/
 	text-transform:uppercase;
 	font-family: 'Montserrat', sans-serif;
 	background:#f7f7f7;
@@ -359,13 +359,44 @@ color: #fff;
 	background:#f7f7f7;
 	text-align:left;
 	margin-bottom:30px;
-	height:390px;
+	/*height:390px;*/
 	width:350px;
 	overflow:hidden;
 	float:left;
 	padding:0;
-	border-radius:3%;
+	/*border-radius:3%;*/
 }
+
+.Portfolio-box__title {
+	padding-top: 20px;
+	padding-bottom: 15px;
+	/*font-size: 18px;*/
+	font-weight: 500;
+	text-align: center;
+	/*box-sizing: border-box;*/
+	/*border-bottom: 1px solid #eeeeee;*/
+	background-color: #41a5fb;
+}
+
+.Portfolio-box__title h3 {
+	margin: 0;
+}
+
+.Portfolio-box__content {
+	height: 210px;
+	border-bottom: 1px solid #eeeeee;
+}
+
+.Portfolio-box__footer {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	height: 115px;
+	font-size: 14px;
+	font-weight: bold;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
 .Portfolio-box img{
 	margin-bottom:25px;
 	transition:all 0.3s ease-in-out;
@@ -739,7 +770,7 @@ border: 2px solid #fff;
 	width:175px;
 	height:50px;
 	background:#41a5fb;
-	border-radius:4px;
+	/*border-radius:4px;*/
 	color:#ffffff;
 	font-size:14px;
 	text-transform:uppercase;
