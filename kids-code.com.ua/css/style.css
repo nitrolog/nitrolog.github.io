@@ -365,6 +365,7 @@ color: #fff;
 	float:left;
 	padding:0;
 	border: 1px solid #41a5fb;
+	box-sizing: border-box;
 	/*border-radius:3%;*/
 }
 

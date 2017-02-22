@@ -94,6 +94,9 @@
 	h6{ font-size:16px; margin-bottom:40px;}
 	p{ line-height:18px;}
 	.service-list{ font-size:12px; margin-bottom:20px;}
+	.service-list-col2 p {
+		font-size: 15px;
+	}
 	.we-create li{ font-size:13px; padding:0 0 0 8px}
 	.header h1{ font-size:28px;}
 	.header{ padding:60px 0;}
@@ -144,6 +147,21 @@
 	.client li a {
 		padding-bottom: 30px;
 	}
+	.h1-mobile {
+	font-size: 29px;
+	}
+	.h4-mobile {
+		font-size: 22px;
+	}
+	.col-lg-7 p {
+		font-size: 15px;
+	}
+	.featured-box-col2 h3 {
+		font-size: 18px;
+	}
+	.featured-box-col2 p {
+		font-size: 15px;
+	}
 	/*.isotope-item img{ width:300px; left:50%; margin-left:-100px;}
 	.isotope-item{ width:300px; margin:0px auto;}
 	.isotope{ width:400px; margin:0px auto;}
@@ -160,11 +178,18 @@
 	.social-link{ margin-left:0px;}
 	.form{ margin:0}
 	.c-logo-part ul li{ display:block;}
-	.Portfolio-box{  max-width:300px !important; width:96.4% !important; margin: 0 auto; margin-bottom: 30px; height: auto;}
+	.Portfolio-box{  max-width:300px !important; width:90% !important; margin: 0 auto; margin-bottom: 30px; height: auto;}
 	.Portfolio-box img { max-width:100%;}
 	.portfolioContainer{ width:280px !important; margin:0 auto !important }
 	h4 {
 		font-size: 15px;
+	}
+	.Portfolio-box__footer {
+		width: 230px;
+		box-sizing: border-box;
+	}
+	.Portfolio-box__content h4 {
+		padding: 0 10px;
 	}
 	
 }
