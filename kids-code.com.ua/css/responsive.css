@@ -12,10 +12,10 @@
 	.form{ margin:0 0 0 20px}
 	.main-nav{ display:block !important; }
 	.main-nav li {
-		width: 110px;
+		width: 125px;
 	}
 	.main-nav li a{
-		margin: 15px 0;
+		padding: 15px 0;
 		/*width: 135px;*/
 	}
 	.Portfolio-nav li a{margin-bottom: 15px;}
@@ -64,9 +64,9 @@
 		width: 95px;
 	}
 	.main-nav li a{
-		margin: 10px 0;
-		padding: 0;
-		font-size: 12px;
+		margin: 0;
+		padding: 6px 0;
+		font-size: 11px;
 	}
 	.Portfolio-nav li a{margin-bottom: 15px;}
 	.row {
@@ -101,11 +101,21 @@
 	.header h1{ font-size:28px;}
 	.header{ padding:60px 0;}
 	.main-section{ padding:60px 0 70px;}
-	.main-nav{ display:none; position:absolute; left:0; width:100%; top:74px; margin:0 auto; flote : none; background:#fff; z-index: 1000;}
+	.nav-overlay {
+		display: none;
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(0, 0, 0, 0.5);
+		z-index: 500;
+	}
+	.main-nav{ display:none; position:absolute; left:0; width:100%; top:68px; margin:0 auto; flote : none; background:#fff; z-index: 1000;}
 	.main-nav li{ display:block;}
 	.main-nav li.small-logo{ display:none;}
 	.main-nav li a{ display:block; padding:7px 32px; border-bottom:none;}
-	.main-nav li a:hover{color:#7cc576}
+	.main-nav li a:hover{color:white;}
 	.team-leader-box{ max-width:307px; width:auto; float:none; margin:0 auto;	}
 	.team-leader-box:nth-of-type(3n){ margin:0 auto}
 	.res-nav_click{ display:block;}
@@ -162,6 +172,10 @@
 	.featured-box-col2 p {
 		font-size: 15px;
 	}
+	.course-registration-link,
+	.about-course {
+		font-size: 14px;
+	}
 	/*.isotope-item img{ width:300px; left:50%; margin-left:-100px;}
 	.isotope-item{ width:300px; margin:0px auto;}
 	.isotope{ width:400px; margin:0px auto;}
@@ -190,6 +204,27 @@
 	}
 	.Portfolio-box__content h4 {
 		padding: 0 10px;
+	}
+
+	header .modalDialog {
+		top: 50%;
+		left: 0;
+		transform: none;
+		transform: translateY(-50%);
+		width: 100%;
+		border-radius: 0px;
+	}
+
+	.modalDialog > div {
+		padding: 0 15px 15px 15px;
+	}
+
+	form .input-text {
+		padding: 10px 15px;
+		border:1px solid #ccc;
+		height: auto;
+		font-size:15px;
+		margin:0 0 11px 0;
 	}
 	
 }

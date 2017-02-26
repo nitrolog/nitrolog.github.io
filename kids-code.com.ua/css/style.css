@@ -184,13 +184,13 @@ color: #fff;
 }
 .main-nav{
 	text-align:center;
-	margin:10px 0 0px;
+	margin:0px 0 0px;
 	padding:0;
 	list-style:none;
 }
 .main-nav li{
 	display:inline-block;
-	margin:0 1px;
+	margin:0;
 }
 
 .main-nav li a{
@@ -199,8 +199,9 @@ color: #fff;
 	text-transform:uppercase;
 	font-family: 'Montserrat', sans-serif;
 	text-decoration: none;
-	line-height:20px;
-	margin:17px 25px;
+	line-height:25px;
+	width: 100%;
+	padding: 17px 25px;
 	transition:all 0.3s ease-in-out;
 	-moz-transition:all 0.3s ease-in-out;
 	-webkit-transition:all 0.3s ease-in-out;
@@ -208,12 +209,17 @@ color: #fff;
 
 .main-nav li a:hover{ 
 	text-decoration:none;
-	color: #41a5fb;
+	background-color: #41a5fb;
+	color: white;
 }
 
 .small-logo{
 	width: 150px;
 	/*padding:0 32px;*/
+}
+
+.main-nav .small-logo a:hover {
+	background-color: transparent;
 }
 
 .main-section{
@@ -412,6 +418,7 @@ color: #fff;
 	text-align: center;
 	box-sizing: border-box;
 	border-right: 1px solid white;
+	text-decoration: none;
 }
 
 .course-registration-link:hover,
@@ -419,6 +426,12 @@ color: #fff;
 	text-decoration: none;
 	background-color: white;
 	color: #41a5fb;
+}
+
+.course-registration-link:visited,
+.course-registration-link:active {
+	text-decoration: none;
+	color: white;
 }
 
 .about-course {

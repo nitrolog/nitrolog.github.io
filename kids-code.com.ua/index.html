@@ -53,83 +53,85 @@
         <ul class="we-create animated fadeInUp delay-1s">
         	<li>Набор в группы уже открыт!</li>
         </ul>
-       <a href="#registration" class="link animated fadeInUp delay-1s">Зарегистрироваться</a>
+       <a href="javascript:void(0)" id="registration" class="link animated fadeInUp delay-1s">Зарегистрироваться</a>
 	   
-<div id="registration" class="modalDialog">
-<div>
-<a href="#close" title="«Закрыть" class="close">X</a>
-<form action="thankyou.php" method="post">
+<div class="modalDialog-overlay"></div>
+<div class="modalDialog">
+    <div>
+        <a href="javascript:void(0)" id="close" title="«Закрыть" class="close">X</a>
+        <form action="thankyou.php" method="post">
 			<h4>Заполните форму регистрации</h4>
-            	<div class="form">
-                	<input class="input-text" type="text" name="p_name" value="" placeholder="Как Вас зовут?" required>
-					<input class="input-text" type="text" name="name" value="" placeholder="Имя Вашего ребенка?" required>
-					<input class="input-text" type="text" name="age" value="" placeholder="Возраст ребенка (полных лет)?" required>
-	<select class="input-text" name="course" required>
-    <option selected="selected">Выберите курс обучения</option>
-    <option>SCRATCH</option>
-    <option>SCRATCHJR</option>
-    <option>РАБОТА В ИНТЕРНЕТЕ</option>
-    <option>АЗЫ ПРОГРАММИРОВАНИЯ</option>
-	<option>PYTHON</option>
-	<option>JAVA</option>
-	<option>C/C++</option>
-	<option>C#</option>
-	<option>РАЗРАБОТКА ПОД ANDROID</option>
-	<option>РАЗРАБОТКА ПОД IOS</option>
-	<option>HTML + CSS</option>
-	<option>JAVA SCRIPT</option>
-	<option>.NET FRAMEWORK</option>
-	<option>PHP</option>
-	<option>SQL</option>
-	<option>LINUX + UNIX</option>
-	<option>WINDOWS SERVER</option>
-	<option>ВЕБ-ДИЗАЙН</option>
-	<option>ОСНОВЫ PHOTOSHOP</option>
-	<option>ОСНОВЫ ILLUSTRATOR</option>
-	<option>ВИДЕОМОНТАЖ</option>
-	<option>ENGLISH</option>
-	<option>TECHNICAL ENGLISH</option>
-   </select>
-   <select class="input-text" name="area" required>
-    <option selected="selected">Выберите район обучения</option>
-    <option>Голосеевский</option>
-    <option>Дарницкий</option>
-    <option>Днепровский</option>
-    <option>Деснянский</option>
-	<option>Святошинский</option>
-	<option>Соломенский</option>
-	<option>Оболонский</option>
-	<option>Подольский</option>
-	<option>Печерский</option>
-	<option>Шевченковский</option>
-	   </select>
-	   <select class="input-text" name="day" required>
-	   <option selected="selected">Желаемые дни обучения</option>
-    <option>Выходные</option>
-    <option>Будние</option>
-    <option>Не имеет значения</option>
-   	   </select>
-	   <input class="input-text" type="text" name="phone" value="" placeholder="Ваш номер телефона?" required>
-        <input class="input-text" type="email" name="email" value="" placeholder="Ваш адресс електронной почты?" required>
-         <input class="input-btn" type="submit" value="Отправить">
-                </div>
-                </form>
-</div>
+            <div class="form">
+            	<input class="input-text" type="text" name="p_name" value="" placeholder="Как Вас зовут?" required>
+				<input class="input-text" type="text" name="name" value="" placeholder="Имя Вашего ребенка?" required>
+				<input class="input-text" type="text" name="age" value="" placeholder="Возраст ребенка (полных лет)?" required>
+            	<select class="input-text" name="course" required>
+                <option selected="selected">Выберите курс обучения</option>
+                <option>SCRATCH</option>
+                <option>SCRATCHJR</option>
+                <option>РАБОТА В ИНТЕРНЕТЕ</option>
+                <option>АЗЫ ПРОГРАММИРОВАНИЯ</option>
+            	<option>PYTHON</option>
+            	<option>JAVA</option>
+            	<option>C/C++</option>
+            	<option>C#</option>
+            	<option>РАЗРАБОТКА ПОД ANDROID</option>
+            	<option>РАЗРАБОТКА ПОД IOS</option>
+            	<option>HTML + CSS</option>
+            	<option>JAVA SCRIPT</option>
+            	<option>.NET FRAMEWORK</option>
+            	<option>PHP</option>
+            	<option>SQL</option>
+            	<option>LINUX + UNIX</option>
+            	<option>WINDOWS SERVER</option>
+            	<option>ВЕБ-ДИЗАЙН</option>
+            	<option>ОСНОВЫ PHOTOSHOP</option>
+            	<option>ОСНОВЫ ILLUSTRATOR</option>
+            	<option>ВИДЕОМОНТАЖ</option>
+            	<option>ENGLISH</option>
+            	<option>TECHNICAL ENGLISH</option>
+               </select>
+               <select class="input-text" name="area" required>
+                <option selected="selected">Выберите район обучения</option>
+                <option>Голосеевский</option>
+                <option>Дарницкий</option>
+                <option>Днепровский</option>
+                <option>Деснянский</option>
+            	<option>Святошинский</option>
+            	<option>Соломенский</option>
+            	<option>Оболонский</option>
+            	<option>Подольский</option>
+            	<option>Печерский</option>
+            	<option>Шевченковский</option>
+            	   </select>
+            	   <select class="input-text" name="day" required>
+            	   <option selected="selected">Желаемые дни обучения</option>
+                <option>Выходные</option>
+                <option>Будние</option>
+                <option>Не имеет значения</option>
+               	   </select>
+            	   <input class="input-text" type="text" name="phone" value="" placeholder="Ваш номер телефона?" required>
+                    <input class="input-text" type="email" name="email" value="" placeholder="Ваш адресс електронной почты?" required>
+                     <input class="input-btn" type="submit" value="Отправить">
+            </div>
+        </form>
+    </div>
 </div>
 
     </div>
-</div>
 </header>
+</div>
 <!--header-end-->
 
 <!--main-nav-start-->
 
+<div class="nav-overlay"></div>
 <nav class="main-nav-outer" id="test">
-	<div class="container">
+    <div class="container">
         <ul class="main-nav">
-        	<!-- <li><a href="#header"><b>&#8593</b></a></li> -->
+            <!-- <li><a href="#header"><b>&#8593</b></a></li> -->
             <li><a href="#service">Почему ІТ?</a></li>
-			<li><a href="#service1">О школе</a></li>
+            <li><a href="#service1">О школе</a></li>
             <li><a href="#Portfolio">Курсы</a></li>
             <li class="small-logo"><a href="#header"><img src="img/logo-white-bg.png" alt=""></a></li>
             <li><a href="#client">Партнеры</a></li>
@@ -284,7 +286,7 @@
                         <p>Возраст: 6+</p>
                         <p>Стоимость курса: 2400 грн</p>
                     </div>
-                    <a class="course-registration-link" href="#registration">Регистрация</a>
+                    <a class="course-registration-link" href="javascript:void(0)" id="registration">Регистрация</a>
                     <a class="about-course" href="under-construction.html">Подробнее</a>
 					<!-- <h5>Длительность курса: 18 часов</h5> -->
 					<!-- <h5>Возраст: 6+</h5> -->
@@ -307,7 +309,7 @@
                         <p>Возраст: 4+</p>
                         <p>Стоимость курса: 2400 грн</p>
                     </div>
-                    <a class="course-registration-link" href="#registration">Регистрация</a>
+                    <a class="course-registration-link" href="javascript:void(0)" id="registration">Регистрация</a>
                     <a class="about-course" href="under-construction.html">Подробнее</a>
 					<!-- <h5>Длительность курса: 18 часов</h5> -->
 					<!-- <h5>Возраст: 4+</h5> -->
@@ -330,7 +332,7 @@
                         <p>Возраст: 6+</p>
                         <p>Стоимость курса: 750 грн</p>
                     </div>
-                    <a class="course-registration-link" href="#registration">Регистрация</a>
+                    <a class="course-registration-link" href="javascript:void(0)" id="registration">Регистрация</a>
                     <a class="about-course" href="under-construction.html">Подробнее</a>
 					<!-- <h5>Длительность курса: 6 часов</h5> -->
 					<!-- <h5>Возраст: 6+</h5> -->
@@ -353,7 +355,7 @@
                         <p>Возраст: 5+</p>
                         <p>Стоимость курса: 1000 грн</p>
                     </div>
-                    <a class="course-registration-link" href="#registration">Регистрация</a>
+                    <a class="course-registration-link" href="javascript:void(0)" id="registration">Регистрация</a>
                     <a class="about-course" href="under-construction.html">Подробнее</a>
 					<!-- <h5>Длительность курса: 8 часов</h5> -->
 					<!-- <h5>Возраст: 5+</h5> -->
@@ -376,7 +378,7 @@
                         <p>Возраст: 12+</p>
                         <p>Стоимость курса: 1800 грн</p>
                     </div>
-                    <a class="course-registration-link" href="#registration">Регистрация</a>
+                    <a class="course-registration-link" href="javascript:void(0)" id="registration">Регистрация</a>
                     <a class="about-course" href="under-construction.html">Подробнее</a>
 					<!-- <h5>Длительность курса: 12 часов</h5> -->
 					<!-- <h5>Возраст: 12+</h5> -->
@@ -399,7 +401,7 @@
                         <p>Возраст: 12+</p>
                         <p>Стоимость курса: 3600 грн</p>
                     </div>
-                    <a class="course-registration-link" href="#registration">Регистрация</a>
+                    <a class="course-registration-link" href="javascript:void(0)" id="registration">Регистрация</a>
                     <a class="about-course" href="under-construction.html">Подробнее</a>
 					<!-- <h5>Длительность курса: 24 часа</h5> -->
 					<!-- <h5>Возраст: 12+</h5> -->
@@ -422,7 +424,7 @@
                         <p>Возраст: 12+</p>
                         <p>Стоимость курса: 3800 грн</p>
                     </div>
-                    <a class="course-registration-link" href="#registration">Регистрация</a>
+                    <a class="course-registration-link" href="javascript:void(0)" id="registration">Регистрация</a>
                     <a class="about-course" href="under-construction.html">Подробнее</a>
 					<!-- <h5>Длительность курса: 24 часа</h5> -->
 					<!-- <h5>Возраст: 12+</h5> -->
@@ -445,7 +447,7 @@
                         <p>Возраст: 12+</p>
                         <p>Стоимость курса: 3800 грн</p>
                     </div>
-                    <a class="course-registration-link" href="#registration">Регистрация</a>
+                    <a class="course-registration-link" href="javascript:void(0)" id="registration">Регистрация</a>
                     <a class="about-course" href="under-construction.html">Подробнее</a>
 					<!-- <h5>Длительность курса: 24 часов</h5> -->
 					<!-- <h5>Возраст: 12+</h5> -->
@@ -468,7 +470,7 @@
                         <p>Возраст: 12+</p>
                         <p>Стоимость курса: 3800 грн</p>
                     </div>
-                    <a class="course-registration-link" href="#registration">Регистрация</a>
+                    <a class="course-registration-link" href="javascript:void(0)" id="registration">Регистрация</a>
                     <a class="about-course" href="under-construction.html">Подробнее</a>
 					<!-- <h5>Длительность курса: 24 часов</h5> -->
 					<!-- <h5>Возраст: 12+</h5> -->
@@ -515,7 +517,7 @@
                         <p>Возраст: 12+</p>
                         <p>Стоимость курса: 6100 грн</p>
                     </div>
-                    <a class="course-registration-link" href="#registration">Регистрация</a>
+                    <a class="course-registration-link" href="javascript:void(0)" id="registration">Регистрация</a>
                     <a class="about-course" href="under-construction.html">Подробнее</a>
 					<!-- <h5>Длительность курса: 36 часов</h5> -->
 					<!-- <h5>Возраст: 12+</h5> -->
@@ -538,7 +540,7 @@
                         <p>Возраст: 12+</p>
                         <p>Стоимость курса: 6100 грн</p>
                     </div>
-                    <a class="course-registration-link" href="#registration">Регистрация</a>
+                    <a class="course-registration-link" href="javascript:void(0)" id="registration">Регистрация</a>
                     <a class="about-course" href="under-construction.html">Подробнее</a>
 					<!-- <h5>Длительность курса: 36 часов</h5> -->
 					<!-- <h5>Возраст: 12+</h5> -->
@@ -560,7 +562,7 @@
                         <p>Возраст: 12+</p>
                         <p>Стоимость курса: 2350 грн</p>
                     </div>
-                    <a class="course-registration-link" href="#registration">Регистрация</a>
+                    <a class="course-registration-link" href="javascript:void(0)" id="registration">Регистрация</a>
                     <a class="about-course" href="under-construction.html">Подробнее</a>
 					<!-- <hr> -->
 					<!-- <h5>Длительность курса: 18 часов</h5> -->
@@ -584,7 +586,7 @@
                         <p>Возраст: 12+</p>
                         <p>Стоимость курса: 3600 грн</p>
                     </div>
-                    <a class="course-registration-link" href="#registration">Регистрация</a>
+                    <a class="course-registration-link" href="javascript:void(0)" id="registration">Регистрация</a>
                     <a class="about-course" href="under-construction.html">Подробнее</a>
 					<!-- <h5>Длительность курса: 24 часа</h5> -->
 					<!-- <h5>Возраст: 12+</h5> -->
@@ -608,7 +610,7 @@
                         <p>Возраст: 12+</p>
                         <p>Стоимость курса: 3600 грн</p>
                     </div>
-                    <a class="course-registration-link" href="#registration">Регистрация</a>
+                    <a class="course-registration-link" href="javascript:void(0)" id="registration">Регистрация</a>
                     <a class="about-course" href="under-construction.html">Подробнее</a>
 					<!-- <h5>Длительность курса: 20 часов</h5> -->
 					<!-- <h5>Возраст: 12+</h5> -->
@@ -631,7 +633,7 @@
                         <p>Возраст: 14+</p>
                         <p>Стоимость курса: 3800 грн</p>
                     </div>
-                    <a class="course-registration-link" href="#registration">Регистрация</a>
+                    <a class="course-registration-link" href="javascript:void(0)" id="registration">Регистрация</a>
                     <a class="about-course" href="under-construction.html">Подробнее</a>
 					<!-- <h5>Длительность курса: 20 часов</h5> -->
 					<!-- <h5>Возраст: 14+</h5> -->
@@ -654,7 +656,7 @@
                         <p>Возраст: 14+</p>
                         <p>Стоимость курса: 2350 грн</p>
                     </div>
-                    <a class="course-registration-link" href="#registration">Регистрация</a>
+                    <a class="course-registration-link" href="javascript:void(0)" id="registration">Регистрация</a>
                     <a class="about-course" href="under-construction.html">Подробнее</a>
 					<!-- <h5>Длительность курса: 18 часов</h5> -->
 					<!-- <h5>Возраст: 14+</h5> -->
@@ -677,7 +679,7 @@
                         <p>Возраст: 14+</p>
                         <p>Стоимость курса: 2500 грн</p>
                     </div>
-                    <a class="course-registration-link" href="#registration">Регистрация</a>
+                    <a class="course-registration-link" href="javascript:void(0)" id="registration">Регистрация</a>
                     <a class="about-course" href="under-construction.html">Подробнее</a>
 					<!-- <h5>Длительность курса: 18 часов</h5> -->
 					<!-- <h5>Возраст: 14+</h5> -->
@@ -700,7 +702,7 @@
                         <p>Возраст: 14+</p>
                         <p>Стоимость курса: 2500 грн</p>
                     </div>
-                    <a class="course-registration-link" href="#registration">Регистрация</a>
+                    <a class="course-registration-link" href="javascript:void(0)" id="registration">Регистрация</a>
                     <a class="about-course" href="under-construction.html">Подробнее</a>
 					<!-- <h5>Длительность курса: 18 часов</h5> -->
 					<!-- <h5>Возраст: 14+</h5> -->
@@ -737,7 +739,7 @@
                         <p>Возраст: 12+</p>
                         <p>Стоимость курса: 3600 грн</p>
                     </div>
-                    <a class="course-registration-link" href="#registration">Регистрация</a>
+                    <a class="course-registration-link" href="javascript:void(0)" id="registration">Регистрация</a>
                     <a class="about-course" href="under-construction.html">Подробнее</a>
 					<!-- <h5>Длительность курса: 24 часа</h5> -->
 					<!-- <h5>Возраст: 12+</h5> -->
@@ -764,7 +766,7 @@
                         <p>Возраст: 12+</p>
                         <p>Стоимость курса: 3600 грн</p>
                     </div>
-                    <a class="course-registration-link" href="#registration">Регистрация</a>
+                    <a class="course-registration-link" href="javascript:void(0)" id="registration">Регистрация</a>
                     <a class="about-course" href="under-construction.html">Подробнее</a>
 					<!-- <h5>Длительность курса: 24 часа</h5> -->
 					<!-- <h5>Возраст: 12+</h5> -->
@@ -790,7 +792,7 @@
                         <p>Возраст: 12+</p>
                         <p>Стоимость курса: 3600 грн</p>
                     </div>
-                    <a class="course-registration-link" href="#registration">Регистрация</a>
+                    <a class="course-registration-link" href="javascript:void(0)" id="registration">Регистрация</a>
                     <a class="about-course" href="under-construction.html">Подробнее</a>
 					<!-- <h5>Длительность курса: 24 часа</h5> -->
 					<!-- <h5>Возраст: 12+</h5> -->
@@ -815,7 +817,7 @@
                         <p>Возраст: 12+</p>
                         <p>Стоимость курса: 3600 грн</p>
                     </div>
-                    <a class="course-registration-link" href="#registration">Регистрация</a>
+                    <a class="course-registration-link" href="javascript:void(0)" id="registration">Регистрация</a>
                     <a class="about-course" href="under-construction.html">Подробнее</a>
 					<!-- <h5>Длительность курса: 24 часа</h5> -->
 					<!-- <h5>Возраст: 12+</h5> -->
@@ -839,7 +841,7 @@
                         <p>Возраст: 6+</p>
                         <p>Стоимость курса: 4300 грн</p>
                     </div>
-                    <a class="course-registration-link" href="#registration">Регистрация</a>
+                    <a class="course-registration-link" href="javascript:void(0)" id="registration">Регистрация</a>
                     <a class="about-course" href="under-construction.html">Подробнее</a>
 					<!-- <h5>Длительность курса: 20+ часов</h5> -->
 					<!-- <h5>Возраст: 6+</h5> -->
@@ -862,7 +864,7 @@
                         <p>Возраст: 10+</p>
                         <p>Стоимость курса: 4300 грн</p>
                     </div>
-                    <a class="course-registration-link" href="#registration">Регистрация</a>
+                    <a class="course-registration-link" href="javascript:void(0)" id="registration">Регистрация</a>
                     <a class="about-course" href="under-construction.html">Подробнее</a>
 					<!-- <h5>Длительность курса: 20+ часов</h5> -->
 					<!-- <h5>Возраст: 10+</h5> -->
@@ -1250,12 +1252,45 @@
 <script type="text/javascript">
     $(document).ready(function(e) {
         $('#test').scrollToFixed();
-        $('.res-nav_click').click(function(){
-            $('.main-nav').slideToggle();
-            return false    
-            
-        });
+        if (window.screen.width < 768) {
+            $('.res-nav_click').click(function(){
+                $('.nav-overlay').toggle();
+                $('.main-nav').slideToggle();
+                return false    
+                
+            });
+            $('.main-nav li a').click(function () {
+                $('.main-nav').slideToggle();
+                $('.nav-overlay').toggle();
+            })
+            $('.nav-overlay').click(function () {
+                $('.nav-overlay').toggle();
+                $('.main-nav').slideToggle();
+            })
+        }
+
+
+
+        $('.course-registration-link').click(function () {
+            $('.modalDialog-overlay').toggle();
+            $('.modalDialog').slideToggle();
+        })
+
+
+        $('#registration').click(function () {
+            $('.modalDialog-overlay').toggle();
+            $('.modalDialog').slideToggle();
+        })
         
+        $('.modalDialog-overlay').click(function () {
+            $('.modalDialog-overlay').toggle();
+            $('.modalDialog').slideToggle();
+        })
+
+        $('#close').click(function() {
+            $('.modalDialog-overlay').toggle();
+            $('.modalDialog').slideToggle();
+        });
     });
 </script>
 
@@ -1338,34 +1373,47 @@ $(window).load(function(){
 
 </script>
 <style>
+.modalDialog-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.8);
+    z-index: 2000;
+}
+
 .modalDialog {
 position: fixed;
 font-family: Arial, Helvetica, sans-serif;
-top: 0;
-right: 0;
-bottom: 0;
-left: 0;
-background: rgba(0,0,0,0.8);
-z-index: 99999;
+/*top: 0;*/
+/*right: 0;*/
+/*bottom: 0;*/
+/*left: 0;*/
+
+z-index: 3000;
 -webkit-transition: opacity 400ms ease-in;
 -moz-transition: opacity 400ms ease-in;
 transition: opacity 400ms ease-in;
 display: none;
 pointer-events: none;
-}
-.modalDialog:target {
-display: block;
-pointer-events: auto;
-}
-.modalDialog > div {
     top: 50%;
-    transform: translateY(-50%);
+    left: 50%;
+    transform: translate(-50%, -50%);
 width: 350px;
-position: relative;
-margin: auto;
-padding: 5px 20px 13px 10px;
 border-radius: 10px;
 background: #fff;
+pointer-events: auto;
+}
+/*.modalDialog:target {*/
+/*display: block;*/
+/*}*/
+
+.modalDialog > div {
+padding: 5px 20px 13px 10px;
+/*position: relative;*/
+/*margin: auto;*/
 background: -moz-linear-gradient(#fff, #999);
 background: -webkit-linear-gradient(#fff, #999);
 background: -o-linear-gradient(#fff, #999);
