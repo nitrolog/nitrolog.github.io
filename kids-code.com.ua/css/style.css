@@ -104,20 +104,20 @@ p{
 }
 .logo{
 	width:350px;
-	margin:0 auto 35px;
+	margin:0 auto 5px;
 }
 .header h1{
 	font-family: 'Montserrat',sans-serif;
-	font-size:50px;
+	font-size:21px;
 	font-weight:400;
-	letter-spacing: -1px;
-	margin:0 0 22px 0 ;
+	/*letter-spacing: -1px;*/
+	margin:0;
 	color:#fff;
 }
 
 .we-create{
 	padding:0;
-	margin:35px 0 80px;
+	margin:45px 0 70px;
 }
 .wp-pic{
 	margin-bottom:20px;
@@ -207,7 +207,8 @@ color: #fff;
 	-webkit-transition:all 0.3s ease-in-out;
 }
 
-.main-nav li a:hover{ 
+.main-nav li a:hover,
+.main-nav li a.active { 
 	text-decoration:none;
 	background-color: #41a5fb;
 	color: white;
@@ -215,7 +216,6 @@ color: #fff;
 
 .small-logo{
 	width: 150px;
-	/*padding:0 32px;*/
 }
 
 .main-nav .small-logo a:hover {
@@ -226,6 +226,18 @@ color: #fff;
 	padding:50px 0 55px;
 }
 
+.scroll-top-btn {
+	position: fixed;
+	right: 25px;
+	bottom: 25px;
+	width: 45px;
+	opacity: 0.3;
+	z-index: 10000;
+}
+
+.scroll-top-btn:hover {
+	opacity: 1;
+}
 
 /* Services
 ---------------------------------*/
@@ -252,6 +264,11 @@ color: #fff;
 }
 .main-section.alabaster{
 	background:#fafafa;
+}
+
+.center {
+	display: flex;
+	align-items: center;
 }
 
 /* Featured Work

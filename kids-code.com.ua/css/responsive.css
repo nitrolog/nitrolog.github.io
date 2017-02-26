@@ -43,7 +43,7 @@
 	/****Ipad Portrait 768 Container 750 ****/
 	body{ font-size:13px;}
 	p{ line-height:20px ;}
-	.header h1{ font-size:46px;}
+	/*.header h1{ font-size:46px;}*/
 	/*.main-nav ul li a{ padding:14px;}*/
 	.small-logo{ padding:0;}
 	h2{ font-size:30px}
@@ -98,7 +98,8 @@
 		font-size: 15px;
 	}
 	.we-create li{ font-size:13px; padding:0 0 0 8px}
-	.header h1{ font-size:28px;}
+	/*.header h1{ font-size:28px;}*/
+	.header h1{ font-size:14px;}
 	.header{ padding:60px 0;}
 	.main-section{ padding:60px 0 70px;}
 	.nav-overlay {
@@ -176,6 +177,10 @@
 	.about-course {
 		font-size: 14px;
 	}
+
+	.center {
+		display: block;
+	}
 	/*.isotope-item img{ width:300px; left:50%; margin-left:-100px;}
 	.isotope-item{ width:300px; margin:0px auto;}
 	.isotope{ width:400px; margin:0px auto;}
@@ -225,6 +230,12 @@
 		height: auto;
 		font-size:15px;
 		margin:0 0 11px 0;
+	}
+
+	.scroll-top-btn {
+		right: 15px;
+		bottom: 15px;
+		width: 25px;
 	}
 	
 }
