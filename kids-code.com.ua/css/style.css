@@ -917,6 +917,10 @@ border: 2px solid #fff;
 	max-width: 1140px;
 }
 
+center ul {
+	padding: 0 20px;
+}
+
 
 /* Animation Timers
 ---------------------------------*/

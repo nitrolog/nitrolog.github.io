@@ -33,6 +33,6 @@ $email = @ trim ($_POST['email']);
 if (! $pname or ! $name or ! $age or ! $course or ! $area or ! $day or ! $phone or ! $email) exit ('Необходимо заполнить все поля, вернитесь');
 mail ("info@kids-code.com.ua",
       "Сообщение с сайта (отправитель: $pname)",
-      "$course \n\n Возраст ребенка: \n $day \n Время проведения: \n $day \n Место проведения: \n $area \n Контакты: \n $email \n $phone",
+      "$course \n\n Возраст ребенка: \n $age \n Время проведения: \n $day \n Место проведения: \n $area \n Контакты: \n $email \n $phone",
       "Content-type:text/plain; charset=utf-8");
 ?>

@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head>
-<meta charset="utf-8">
+<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, maximum-scale=1">
 
 <title>Kids Code</title>
@@ -54,7 +54,7 @@
         <ul class="we-create animated fadeInUp delay-1s">
         	<li>Набор в группы уже открыт!</li>
         </ul>
-       <a href="javascript:void(0)" id="registration" class="link animated fadeInUp delay-1s">Зарегистрироваться</a>
+       <a href="javascript:void(0)" id="registration-clients" class="link animated fadeInUp delay-1s">Зарегистрироваться</a>
 	   
 <div class="modalDialog-overlay"></div>
 <div class="modalDialog">
@@ -252,11 +252,12 @@
             </div>
         </div>
     </div>
-</section><!--main-section alabaster-end-->
+</section>
+<!--main-section alabaster-end-->
 
 
-
-<section class="main-section paddind" id="Portfolio"><!--main-section-start-->
+<!--main-section-start-->
+<section class="main-section paddind" id="Portfolio">
 	<div class="container">
     	<h2>Курсы</h2>
     	<h6>Различные курсы и формы обучения позволят подобрать программу, которая позволит наилучшим образом раскрыть все способности!</h6>
@@ -1102,9 +1103,6 @@
                 <span class="wow fadeInDown delay-09s">Java developer</span>
                 <p class="wow fadeInDown delay-09s">Разработчик мобильных приложений под Android и iOS с 4-х летним опытом работы.<br></p>
             </div>
-
-	   
-
         </div>
 		
 		
@@ -1115,80 +1113,85 @@
 		<ul>
         	<p>Вы можете стать преподавателем школы Kids Code — для этого заполните форму ниже.</p>
         </ul>
-       <a href="#registration_teacher" class="link animated fadeInUp delay-1s">Стать преподавателем</a>
+       <a href="javascript:void(0)" id="registration-teacher" class="link animated fadeInUp delay-1s">Стать преподавателем</a>
 </center>
-	   <div id="registration_teacher" class="modalDialog1">
-<div>
-<a href="#close" title="«Закрыть" class="close">X</a>
-<form action="thankyou_teacher.php" method="post">
-			<h4>Заполните форму регистрации</h4>
-            	<div class="form">
-                	<input class="input-text" type="text" name="t_name" value="" placeholder="Укажите Ваше имя" required>
-					<input class="input-text" type="text" name="t_sname" value="" placeholder="Укажите Вашу фамилию" required>
-					<input class="input-text" type="text" name="t_phone" value="" placeholder="Укажите Ваш номер телефона" required>
-					<input class="input-text" type="email" name="t_email" value="" placeholder="Ваш адресс електронной почты?" required>
-	<select class="input-text" name="t_course" placeholder="Выберите курс обучения" required>
-       <option>SCRATCH</option>
-    <option>SCRATCHJR</option>
-    <option>РАБОТА В ИНТЕРНЕТЕ</option>
-    <option>АЗЫ ПРОГРАММИРОВАНИЯ</option>
-	<option>PYTHON</option>
-	<option>JAVA</option>
-	<option>C/C++</option>
-	<option>C#</option>
-	<option>РАЗРАБОТКА ПОД ANDROID</option>
-	<option>РАЗРАБОТКА ПОД IOS</option>
-	<option>HTML + CSS</option>
-	<option>JAVA SCRIPT</option>
-	<option>.NET FRAMEWORK</option>
-	<option>PHP</option>
-	<option>SQL</option>
-	<option>LINUX + UNIX</option>
-	<option>WINDOWS SERVER</option>
-	<option>ВЕБ-ДИЗАЙН</option>
-	<option>ОСНОВЫ PHOTOSHOP</option>
-	<option>ОСНОВЫ ILLUSTRATOR</option>
-	<option>ВИДЕОМОНТАЖ</option>
-	<option>ENGLISH</option>
-	<option>TECHNICAL ENGLISH</option>
-   </select>
-	<select class="input-text" name="t_city" required>
-    <option selected="selected">Укажите город</option>
-    <option>Киев</option>
-    <option>Винница</option>
-    <option>Днепропетровск</option>
-    <option>Житомир</option>
-	<option>Запорожье</option>
-	<option>Ивано-Франковск</option>
-	<option>Кропивницкий</option>
-	<option>Львов</option>
-	<option>Николаев</option>
-	<option>Олесса</option>
-	<option>Полтава</option>
-	<option>Ровно</option>
-	<option>Сумы</option>
-	<option>Тернополь</option>
-	<option>Харьков</option>
-	<option>Херсон</option>
-	<option>Хмельницкий</option>
-	<option>Черкассы</option>
-	<option>Черновцы</option>
-	<option>Черников</option>
-	<option>Другое</option>
-   </select>
-	   <input class="input-text" type="text" name="t_company" value="" placeholder="Место Вашей работы?" required>
-	   <input class="input-text" type="text" name="t_specialty" value="" placeholder="Ваша должность/навык?" required>
-        <center>
-         <input class="input-btn" type="submit" value="Отправить"></center>
+<section>
+    
+    <div class="modalDialog1-overlay"></div>
+    <div class="modalDialog1">
+        <div>
+            <a href="javascript:void(0)" id="close-teacher" title="«Закрыть" class="close">X</a>
+            <form action="thankyou_teacher.php" method="post">
+                <h4>Заполните форму регистрации</h4>
+                <div class="form">
+                    <input class="input-text" type="text" name="t_name" value="" placeholder="Укажите Ваше имя" required>
+                    <input class="input-text" type="text" name="t_sname" value="" placeholder="Укажите Вашу фамилию" required>
+                    <input class="input-text" type="text" name="t_phone" value="" placeholder="Укажите Ваш номер телефона" required>
+                    <input class="input-text" type="email" name="t_email" value="" placeholder="Ваш адресс електронной почты?" required>
+                    <select class="input-text" name="t_course" placeholder="Выберите курс обучения" required>
+                        <option>SCRATCH</option>
+                        <option>SCRATCHJR</option>
+                        <option>РАБОТА В ИНТЕРНЕТЕ</option>
+                        <option>АЗЫ ПРОГРАММИРОВАНИЯ</option>
+                        <option>PYTHON</option>
+                        <option>JAVA</option>
+                        <option>C/C++</option>
+                        <option>C#</option>
+                        <option>РАЗРАБОТКА ПОД ANDROID</option>
+                        <option>РАЗРАБОТКА ПОД IOS</option>
+                        <option>HTML + CSS</option>
+                        <option>JAVA SCRIPT</option>
+                        <option>.NET FRAMEWORK</option>
+                        <option>PHP</option>
+                        <option>SQL</option>
+                        <option>LINUX + UNIX</option>
+                        <option>WINDOWS SERVER</option>
+                        <option>ВЕБ-ДИЗАЙН</option>
+                        <option>ОСНОВЫ PHOTOSHOP</option>
+                        <option>ОСНОВЫ ILLUSTRATOR</option>
+                        <option>ВИДЕОМОНТАЖ</option>
+                        <option>ENGLISH</option>
+                        <option>TECHNICAL ENGLISH</option>
+                    </select>
+                    <select class="input-text" name="t_city" required>
+                        <option selected="selected">Укажите город</option>
+                        <option>Киев</option>
+                        <option>Винница</option>
+                        <option>Днепропетровск</option>
+                        <option>Житомир</option>
+                        <option>Запорожье</option>
+                        <option>Ивано-Франковск</option>
+                        <option>Кропивницкий</option>
+                        <option>Львов</option>
+                        <option>Николаев</option>
+                        <option>Олесса</option>
+                        <option>Полтава</option>
+                        <option>Ровно</option>
+                        <option>Сумы</option>
+                        <option>Тернополь</option>
+                        <option>Харьков</option>
+                        <option>Херсон</option>
+                        <option>Хмельницкий</option>
+                        <option>Черкассы</option>
+                        <option>Черновцы</option>
+                        <option>Черников</option>
+                        <option>Другое</option>
+                    </select>
+                    <input class="input-text" type="text" name="t_company" value="" placeholder="Место Вашей работы?" required>
+                    <input class="input-text" type="text" name="t_specialty" value="" placeholder="Ваша должность/навык?" required>
+                    <center>
+                        <input class="input-btn" type="submit" value="Отправить">
+                    </center>
                 </div>
-                </form>
-</div>
-</div>
+            </form>
+        </div>
+    </div>
+</section>
 <br>
 <br>
 
 <section class="business-talking">
-	<div class="container">
+    <div class="container">
         <h2>Вперед в мир IT!</h2>
     </div>
 </section>
@@ -1277,14 +1280,13 @@
         }
 
 
-
+                // registration clients
         $('.course-registration-link').click(function () {
             $('.modalDialog-overlay').toggle();
             $('.modalDialog').slideToggle();
         })
 
-
-        $('#registration').click(function () {
+        $('#registration-clients').click(function () {
             $('.modalDialog-overlay').toggle();
             $('.modalDialog').slideToggle();
         })
@@ -1299,13 +1301,30 @@
             $('.modalDialog').slideToggle();
         });
 
+
+                // registration teacher
+        $('#registration-teacher').click(function () {
+            $('.modalDialog1-overlay').toggle();
+            $('.modalDialog1').slideToggle();
+        })
+        
+        $('.modalDialog1-overlay').click(function () {
+            $('.modalDialog1-overlay').toggle();
+            $('.modalDialog1').slideToggle();
+        })
+
+        $('#close-teacher').click(function() {
+            $('.modalDialog1-overlay').toggle();
+            $('.modalDialog1').slideToggle();
+        });
+
     });
 </script>
 
 <script>
     $(document).ready(function(){   
         $(window).scroll(function () {
-            if ($(this).scrollTop() > 0) {
+            if ($(this).scrollTop() > 300) {
                 $('.scroll-top-btn').fadeIn();
             } else {
                 $('.scroll-top-btn').fadeOut();
@@ -1408,7 +1427,8 @@ $(window).load(function(){
 
 </script>
 <style>
-.modalDialog-overlay {
+.modalDialog-overlay,
+.modalDialog1-overlay {
     display: none;
     position: fixed;
     top: 0;
@@ -1419,7 +1439,8 @@ $(window).load(function(){
     z-index: 2000;
 }
 
-.modalDialog {
+.modalDialog,
+.modalDialog1 {
 position: fixed;
 font-family: Arial, Helvetica, sans-serif;
 /*top: 0;*/
@@ -1445,7 +1466,8 @@ pointer-events: auto;
 /*display: block;*/
 /*}*/
 
-.modalDialog > div {
+.modalDialog > div,
+.modalDialog1 > div {
 padding: 5px 20px 13px 10px;
 /*position: relative;*/
 /*margin: auto;*/
@@ -1456,7 +1478,7 @@ background: -o-linear-gradient(#fff, #999);
 
 
 
-.modalDialog1 {
+/*.modalDialog1 {
 position: fixed;
 font-family: Arial, Helvetica, sans-serif;
 top: 0;
@@ -1487,7 +1509,7 @@ background: #fff;
 background: -moz-linear-gradient(#fff, #999);
 background: -webkit-linear-gradient(#fff, #999);
 background: -o-linear-gradient(#fff, #999);
-}
+}*/
 
 </style>
 </body>

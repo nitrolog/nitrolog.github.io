@@ -124,7 +124,7 @@
 	.featured-box{ font-size:12px;}
 	.featured-box p{ line-height:18px; }
 	.c-logo-part ul a{ margin-bottom:5px;}
-	.main-section.team{ padding:60px 0 50px;}
+	.main-section.team{ padding:60px 0 0;}
 	.business-talking h2{ font-size:36px;}
 	.contact-info-box{ margin:0 0 12px 30px; font-size:12px;}
 	.contact-info-box span{ line-height:18px;}
@@ -211,7 +211,8 @@
 		padding: 0 10px;
 	}
 
-	header .modalDialog {
+	header .modalDialog,
+	section .modalDialog1 {
 		top: 50%;
 		left: 0;
 		transform: none;
@@ -220,7 +221,8 @@
 		border-radius: 0px;
 	}
 
-	.modalDialog > div {
+	.modalDialog > div,
+	.modalDialog1 > div {
 		padding: 0 15px 15px 15px;
 	}
 
