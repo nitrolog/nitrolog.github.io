@@ -61,10 +61,8 @@
 }
 
 .team h2 {
-	/*padding-bottom: 30px;*/
 	font-size: 48px;
 	font-family: Calibri;
-	/*font-weight: 300;*/
 	color: #888888;
 	text-transform: unset;
 	letter-spacing: 1.5px;
@@ -108,12 +106,6 @@
 		margin-right: 35px;
 	}
 
-	/*.reviews__jcarousel-img {*/
-	    /*display: block;*/
-	    /*max-width: 100%;*/
-	    /*height: auto !important;*/
-	/*}*/
-
 	/** REVIEWS CAROUSEL PAGINATION **/
 
 	.team-leader-block__jcarousel-pagination {
@@ -146,10 +138,7 @@
     .team-leader-block__jcarousel-control-next {
         display: block;
         position: absolute;
-        /*width: 48px;*/
-        /*height: 48px;*/
         font-size: 55px;
-        /*line-height: 42px;*/
         transform: scaleY(3.3148);
         text-decoration: none;
         color: #87a9bd;
