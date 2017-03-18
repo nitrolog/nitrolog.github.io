@@ -595,5 +595,32 @@
 		bottom: 15px;
 		width: 25px;
 	}
+
+	.Portfolio-nav {
+		margin-bottom: 30px;
+	}
+
+	.course-filter__separator {
+		display: none;
+		height: 230px;
+	}
+
+	.Portfolio-nav {
+		text-align: center;
+	}
+
+	.course-filter__left {
+		margin: 0 auto;
+		float: none;
+		padding: 0;
+		width: 100%;
+	}
+
+	.course-filter__right {
+		margin: 0 auto;
+		float: none;
+		padding: 0;
+		width: 100%;
+	}
 	
 }
