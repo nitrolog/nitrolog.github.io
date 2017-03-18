@@ -4,6 +4,7 @@
 
 
 
+
 @media only screen and (min-width: 992px) {
 	/****Ipad Landscape 1024 Container 970 ****/
 	
@@ -19,10 +20,19 @@
 		/*width: 135px;*/
 	}
 	.Portfolio-nav li a{margin-bottom: 15px;}
-	.row {
-		display: block;
+
+	.Portfolio-nav li {
+		padding: 0 5px;
 	}
-	.client li a {
+
+	.course-filter__separator {
+		height: 190px;
+	}
+
+	.row {
+		/*display: block;*/
+	}
+	.client li {
 		width: 28%;
 		padding-bottom: 30px;
 	}
@@ -75,12 +85,22 @@
 	.team h2 {
 		font-size: 40px;
 	}
+
+	.course-filter-top {
+		font-size: 24px;
+	}
+
+	.course-filter__title {
+		font-size: 20px;
+	}
 	/*.portfolioContainer{ width:800px; margin:0px auto !important; } */ 
 	
 }
 
+
+
 @media only screen and (min-width: 1200px) {
-	.client li a {
+	.client li {
 		width: 14%;
 	}
 	.main-nav li {
@@ -130,7 +150,34 @@
     .team-leader-box {
     	height: 490px;
     }
+
+    .course-filter__separator {
+	/*margin: 0 auto;*/
+	position: absolute;
+	top: 25px;
+	left: 50%;
+	width: 2px;
+	height: 125px;
+	background-color: #41a5fb;
+	}
+
+	.Portfolio-nav{
+	padding:0;
+	margin:0 0 45px 0;
+	list-style:none;
+	text-align:justify;
+	}
+	
+	.Portfolio-nav li{
+		margin:0 0;
+		padding: 0;
+		display:inline-block;
+	}
+
+
 }	
+
+
    
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 	/****Ipad Portrait 768 Container 750 ****/
@@ -144,7 +191,7 @@
 	h3{ font-size:15px;}
 	.service-list{ margin-bottom:20px; font-size:15px;}
 	.featured-work p.padding-b{ padding-bottom:15px;}
-	.main-section{ padding:70px 0;}
+	.main-section{ padding:65px 0;}
 	.c-logo-part ul li{ margin:0 1%; float:left; width:18%;}
 	.c-logo-part ul li a{ display:block;}
 	.c-logo-part ul li a img{ display:block;}
@@ -163,9 +210,9 @@
 	}
 	.Portfolio-nav li a{margin-bottom: 15px;}
 	.row {
-		display: block;
+		/*display: block;*/
 	}
-	.client li a {
+	.client li {
 		width: 28%;
 		padding-bottom: 30px;
 	}
@@ -222,6 +269,30 @@
     .team-leader-block {
     	padding-bottom: 40px;
     }
+
+    .scroll-top-btn {
+    	width: 35px;
+    }
+
+    .course-filter-top {
+		font-size: 22px;
+	}
+
+	.course-filter__title {
+		font-size: 20px;
+	}
+
+	.Portfolio-nav li {
+		padding: 0 6px;
+	}
+
+	.course-filter__separator {
+		height: 230px;
+	}
+
+	.Portfolio-nav {
+		text-align: center;
+	}
 	 
 	
 }
@@ -292,11 +363,10 @@
 		text-align: center;
 	}
 	.client li {
-		width: 48%;
-		
+		width: 46%;
+		padding-bottom: 30px;
 	}
 	.client li a {
-		padding-bottom: 30px;
 	}
 	.h1-mobile {
 	font-size: 29px;
@@ -342,6 +412,42 @@
 		font-size: 30px;
 	}
 
+	.about-course-preview__box {
+
+	}
+
+	.about-course-preview__box {
+		display: block;
+	}
+
+	.about-course-in-detail__box {
+		display: block;
+	}
+
+	.about-course-preview__content {
+		margin: 0 auto;
+		padding-top: 20px;
+		width: 90%;
+	}
+
+	.about-course-in-detail__content {
+		margin: 0 auto;
+		padding-bottom: 20px;
+		width: 90%;
+	}
+
+	.about-course-preview__img {
+		display: block;
+		margin: 0 auto;
+		width: 80%;
+	}
+
+	.about-course-in-detail__img {
+		display: block;
+		margin: 0 auto;
+		width: 80%;
+	}
+
 	.team h2 {
 		font-size: 30px;
 	}
@@ -383,6 +489,52 @@
         right: -35px;
     	top: 95px;
     }
+
+    .scroll-top-btn {
+    	right: 20px;
+    	bottom: 20px;
+    	width: 30px;
+    }
+
+    .course-filter-top {
+		font-size: 20px;
+	}
+
+	.course-filter__title {
+		font-size: 19px;
+	}
+
+	.Portfolio-nav li {
+		padding: 0 6px;
+		display: inline-block;
+	}
+
+	.Portfolio-nav {
+		margin-bottom: 30px;
+	}
+
+	.course-filter__separator {
+		display: none;
+		height: 230px;
+	}
+
+	.Portfolio-nav {
+		text-align: center;
+	}
+
+	.course-filter__left {
+		margin: 0 auto;
+		float: none;
+		padding: 0 20px;
+		width: 90%;
+	}
+
+	.course-filter__right {
+		margin: 0 auto;
+		float: none;
+		padding: 0 20px;
+		width: 90%;
+	}
 
    
 	/*.isotope-item img{ width:300px; left:50%; margin-left:-100px;}
