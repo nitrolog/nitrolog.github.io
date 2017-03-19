@@ -640,6 +640,7 @@ img {
 .client li{
 	display:inline-block;
 	margin:0 10px;
+	vertical-align: top;
 }
 .client li a{
 	display:inline-block;

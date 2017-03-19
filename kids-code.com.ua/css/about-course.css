@@ -25,6 +25,7 @@
 .about-course-preview__content {
 	margin: 0 1%;
 	width: 55%;
+	font-size: 18px;
 }
 
 
@@ -33,16 +34,17 @@
 .about-course-in-detail__box {
 	display: flex;
 	align-items: center;
+	font-size: 18px;
 }
 
 .about-course-in-detail__title {
-	padding-bottom: 30px;
-	font-size: 48px;
+	font-size: 28px;
 	font-family: Calibri;
 	font-weight: 300;
 	color: #888888;
 	text-transform: unset;
 	letter-spacing: 1.5px;
+	text-align: left;
 }
 
 .about-course-in-detail__img {
@@ -53,6 +55,15 @@
 .about-course-in-detail__content {
 	margin: 0 1%;
 	width: 55%;
+}
+
+.about-course-in-detail__content ul {
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+.about-course-in-detail__content p {
+	padding-bottom: 10px;
 }
 
 
