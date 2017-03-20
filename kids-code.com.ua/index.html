@@ -1489,6 +1489,27 @@ $(window).load(function(){
 });
 
 </script>
+
+<script type="text/javascript">
+    $(function () {
+
+        var $str;
+        var $trim;
+        var $trimmed;
+
+        $str = $('.input-text');
+
+        $str.on("focusout", function () {
+            $trim = $.trim($(this).val());
+            $trimmed = $(this).val($trim);
+        })
+        
+    })
+</script>
+
+
+
+
 <style>
 .modalDialog-overlay,
 .modalDialog1-overlay {
