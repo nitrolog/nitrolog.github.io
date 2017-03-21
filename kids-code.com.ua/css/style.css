@@ -355,9 +355,8 @@ color: #fff;
 ---------------------------------*/
 .course-filter-top {
 	padding-bottom: 40px;
-	font-size: 27px;
+	font-size: 26px;
 	font-family: "Open Sans", sans-serif;
-	/*font-weight: bold;*/
 	line-height: normal;
 	text-align: center;
 }
@@ -366,37 +365,19 @@ color: #fff;
 	padding: 0 50px;
 }
 
-.course-filter-top {
-	/*padding-bottom: 40px;*/
-	font-size: 26px;
-	font-family: "Open Sans", sans-serif;
-	/*font-weight: bold;*/
-	line-height: normal;
-	text-align: center;
-}
-
 .course-filter__title {
 	padding-bottom: 20px;
 	font-size: 22px;
 }
 
 .course-filter__left {
-	/*padding-right: 20px;*/
-	/*padding-left: 20px;*/
-	/*margin: 0 auto;*/
 	float: left;
-	/*display: inline-block;*/
 	width: 48%;
 	text-align: center;
-	/*box-sizing: border-box;*/
 }
 
 .course-filter__right {
-	/*padding-right: 20px;*/
-	/*padding-left: 20px;*/
 	float: right;
-	/*margin: 0 auto;*/
-	/*display: inline-block;*/
 	width: 48%;
 	text-align: center;
 }
@@ -406,7 +387,6 @@ color: #fff;
 }
 
 .course-filter__separator {
-	/*margin: 0 auto;*/
 	position: absolute;
 	top: 25px;
 	left: 50%;
@@ -414,19 +394,6 @@ color: #fff;
 	height: 125px;
 	background-color: #41a5fb;
 }
-
-/*.portfolioFilter {
-	padding-right: 20px;
-	padding-left: 20px;
-	box-sizing: border-box;
-}
-
-.portfolioFilterAge {
-	padding-right: 20px;
-	padding-left: 20px;
-	border-left: 1px solid #41a5fb;
-	box-sizing: border-box;
-}*/
 
 .helper {
 	width: 100%;
@@ -450,7 +417,6 @@ color: #fff;
 	font-size:12px;
 	line-height:20px;
 	color:#222222;
-	/*border-radius:4px;*/
 	text-transform:uppercase;
 	font-family: 'Montserrat', sans-serif;
 	background:#f7f7f7;
