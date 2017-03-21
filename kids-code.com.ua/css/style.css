@@ -62,6 +62,9 @@ body {
 	color:#888888;
 	margin:0;
 }
+h1 {
+	margin-top: 0;
+}
 h2{
 	font-size:34px;
 	color:#222222;
@@ -350,6 +353,36 @@ color: #fff;
 
 /* Portfolio
 ---------------------------------*/
+.course-filter-top {
+	padding-bottom: 40px;
+	font-size: 27px;
+	font-family: "Open Sans", sans-serif;
+	/*font-weight: bold;*/
+	line-height: normal;
+	text-align: center;
+}
+
+.course-filter-top {
+	/*padding-bottom: 40px;*/
+	font-size: 20px;
+	font-family: "Open Sans", sans-serif;
+	/*font-weight: bold;*/
+	line-height: normal;
+	text-align: center;
+}
+
+.course-filter__left {
+	margin: 0 auto;
+	display: inline-block;
+	width: 48%;
+}
+
+.course-filter__right {
+	margin: 0 auto;
+	display: inline-block;
+	width: 48%;
+}
+
 .Portfolio-nav{
 	padding:0;
 	margin:0 0 45px 0;
@@ -413,6 +446,7 @@ color: #fff;
 
 .Portfolio-box__title h3 {
 	margin: 0;
+	font-family: 'Roboto', sans-serif;
 }
 
 .Portfolio-box__content {
@@ -525,15 +559,20 @@ img {
 .client-part{
 	background:url(../img/section-bg1.jpg) center center no-repeat;
 	background-size:cover;
-	padding: 0 0 55px;
+	padding: 40px 0 55px;
 	text-align:center;
 }
+
+.col-lg-12 {
+	width: 100%;
+}
+
 .client-part-haead{
 	color:#fdfdfd;
 	font-size:28px;
 	line-height:41px;
-	margin:30px 0 10px;
-	font-family: ''Open Sans',sans-serif';
+	margin:0px 0 10px;
+	font-family: 'Open Sans',sans-serif;
 	font-style: italic;
 }
 .client{
@@ -543,8 +582,8 @@ img {
 	text-align:center;
 }
 .client li{
-	display:inline;
-	margin:0 15px;
+	display:inline-block;
+	margin:0 10px;
 }
 .client li a{
 	display:inline-block;

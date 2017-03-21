@@ -22,7 +22,7 @@
 	.row {
 		/*display: block;*/
 	}
-	.client li a {
+	.client li {
 		width: 28%;
 		padding-bottom: 30px;
 	}
@@ -80,7 +80,7 @@
 }
 
 @media only screen and (min-width: 1200px) {
-	.client li a {
+	.client li {
 		width: 14%;
 	}
 	.main-nav li {
@@ -144,7 +144,7 @@
 	h3{ font-size:15px;}
 	.service-list{ margin-bottom:20px; font-size:15px;}
 	.featured-work p.padding-b{ padding-bottom:15px;}
-	.main-section{ padding:70px 0;}
+	.main-section{ padding:65px 0;}
 	.c-logo-part ul li{ margin:0 1%; float:left; width:18%;}
 	.c-logo-part ul li a{ display:block;}
 	.c-logo-part ul li a img{ display:block;}
@@ -165,7 +165,7 @@
 	.row {
 		/*display: block;*/
 	}
-	.client li a {
+	.client li {
 		width: 28%;
 		padding-bottom: 30px;
 	}
@@ -296,11 +296,10 @@
 		text-align: center;
 	}
 	.client li {
-		width: 48%;
-		
+		width: 46%;
+		padding-bottom: 30px;
 	}
 	.client li a {
-		padding-bottom: 30px;
 	}
 	.h1-mobile {
 	font-size: 29px;
