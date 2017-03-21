@@ -362,36 +362,87 @@ color: #fff;
 	text-align: center;
 }
 
+.paddind h6 {
+	padding: 0 50px;
+}
+
 .course-filter-top {
 	/*padding-bottom: 40px;*/
-	font-size: 20px;
+	font-size: 26px;
 	font-family: "Open Sans", sans-serif;
 	/*font-weight: bold;*/
 	line-height: normal;
 	text-align: center;
 }
 
+.course-filter__title {
+	padding-bottom: 20px;
+	font-size: 22px;
+}
+
 .course-filter__left {
-	margin: 0 auto;
-	display: inline-block;
+	/*padding-right: 20px;*/
+	/*padding-left: 20px;*/
+	/*margin: 0 auto;*/
+	float: left;
+	/*display: inline-block;*/
 	width: 48%;
+	text-align: center;
+	/*box-sizing: border-box;*/
 }
 
 .course-filter__right {
-	margin: 0 auto;
-	display: inline-block;
+	/*padding-right: 20px;*/
+	/*padding-left: 20px;*/
+	float: right;
+	/*margin: 0 auto;*/
+	/*display: inline-block;*/
 	width: 48%;
+	text-align: center;
+}
+
+.course-filter__box {
+	position: relative;
+}
+
+.course-filter__separator {
+	/*margin: 0 auto;*/
+	position: absolute;
+	top: 25px;
+	left: 50%;
+	width: 2px;
+	height: 125px;
+	background-color: #41a5fb;
+}
+
+/*.portfolioFilter {
+	padding-right: 20px;
+	padding-left: 20px;
+	box-sizing: border-box;
+}
+
+.portfolioFilterAge {
+	padding-right: 20px;
+	padding-left: 20px;
+	border-left: 1px solid #41a5fb;
+	box-sizing: border-box;
+}*/
+
+.helper {
+	width: 100%;
+	height: 0;
+	visibility: hidden;
 }
 
 .Portfolio-nav{
 	padding:0;
 	margin:0 0 45px 0;
 	list-style:none;
-	text-align:center;
+	text-align:justify;
 }
 .Portfolio-nav li{
-	margin:0 10px;
-	display:inline;
+	margin:0 0;
+	display:inline-block;
 }
 .Portfolio-nav li a{
 	display:inline-block;
@@ -412,6 +463,11 @@ color: #fff;
 	background:#41a5fb;
 	color:#fff;
 	text-decoration:none;
+}
+
+.portfolioFilterAge .Portfolio-nav li a {
+	width: 70px;
+	text-align: center;
 }
 
 .portfolioContainer{
@@ -584,6 +640,7 @@ img {
 .client li{
 	display:inline-block;
 	margin:0 10px;
+	vertical-align: top;
 }
 .client li a{
 	display:inline-block;
