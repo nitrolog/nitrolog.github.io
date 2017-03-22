@@ -282,6 +282,11 @@ color: #fff;
 	align-items: center;
 }
 
+.alabaster .video-stream {
+	width: 100%;
+	height: 280px;
+}
+
 /* Featured Work
 ---------------------------------*/
 .featured-work{
