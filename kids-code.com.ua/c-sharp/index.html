@@ -1,0 +1,680 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, maximum-scale=1">
+<meta http-equiv="Cache-Control" content="max-age=86400, must-revalidate">
+
+<title>Kids Code - C#</title>
+<link rel="icon" href="../favicon.png" type="image/png">
+<link rel="shortcut icon" href="../favicon.ico" type="img/x-icon">
+
+<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,800italic,700italic,600italic,400italic,300italic,800,700,600' rel='stylesheet' type='text/css'>
+
+<link href="../css/bootstrap.css" rel="stylesheet" type="text/css">
+<link href="../css/style.css" rel="stylesheet" type="text/css">
+<link href="../css/about-course.css" rel="stylesheet" type="text/css">
+<link href="../css/font-awesome.css" rel="stylesheet" type="text/css">
+<link href="../css/responsive.css" rel="stylesheet" type="text/css">
+<link href="../css/animate.css" rel="stylesheet" type="text/css">
+
+<!--[if IE]><style type="text/css">.pie {behavior:url(PIE.htc);}</style><![endif]-->
+
+<script type="text/javascript" src="../js/jquery-1.12.4.min.js"></script>
+<!-- <script type="text/javascript" src="../js/jquery.1.8.3.min.js"></script> -->
+<script type="text/javascript" src="../js/bootstrap.js"></script>
+<script type="text/javascript" src="../js/jquery-scrolltofixed.js"></script>
+<script type="text/javascript" src="../js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="../js/jquery.isotope.js"></script>
+<script type="text/javascript" src="../js/wow.js"></script>
+<script type="text/javascript" src="../js/classie.js"></script>
+<script type="text/javascript" src="../js/jquery.jcarousel.min.js"></script>
+<!-- <script type="text/javascript" src="js/jquery.changeActiveNav.min.js"></script> -->
+
+
+<!--[if lt IE 9]>
+    <script src="js/respond-1.1.0.min.js"></script>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/html5element.js"></script>
+<![endif]-->
+
+
+</head>
+<body>
+<div style="overflow:hidden;">
+<!--header-start-->
+<header class="header" id="header">
+    <div class="container">
+        <figure class="logo animated fadeInDown delay-07s">
+            <a href="http://kids-code.com.ua/"><img src="../img/logo-dark-bg.png" alt=""></a>   
+        </figure>   
+        <h1 class="animated fadeInDown delay-07s">IT-школа для детей</h1>
+<!--        
+        <figure class="logo animated fadeInDown delay-07s">
+        <br><a href="#test"><img src="img/down_icon.png"></a>
+        </figure>
+-->         
+        <ul class="we-create animated fadeInUp delay-1s">
+            <li>Набор в группы уже открыт!</li>
+        </ul>
+       <a href="javascript:void(0)" id="registration-clients" class="link animated fadeInUp delay-1s">Зарегистрироваться</a>
+       
+<div class="modalDialog-overlay"></div>
+<div class="modalDialog">
+    <div>
+        <a href="javascript:void(0)" id="close" title="«Закрыть" class="close">X</a>
+        <form action="../thankyou.php" method="post">
+            <h4>Заполните форму регистрации</h4>
+            <div class="form">
+                <input class="input-text" type="text" name="p_name" value="" placeholder="Как Вас зовут?" required>
+                <input class="input-text" type="text" name="name" value="" placeholder="Имя Вашего ребенка?" required>
+                <input class="input-text" type="text" name="age" value="" placeholder="Возраст ребенка (полных лет)?" required>
+                <select class="input-text" name="course" required>
+                <option selected="selected">Выберите курс обучения</option>
+                <option>SCRATCH</option>
+                <option>SCRATCHJR</option>
+                <option>РАБОТА В ИНТЕРНЕТЕ</option>
+                <option>АЗЫ ПРОГРАММИРОВАНИЯ</option>
+                <option>PYTHON</option>
+                <option>JAVA</option>
+                <option>C/C++</option>
+                <option>C#</option>
+                <option>РАЗРАБОТКА ПОД ANDROID</option>
+                <option>РАЗРАБОТКА ПОД IOS</option>
+                <option>HTML + CSS</option>
+                <option>JAVA SCRIPT</option>
+                <option>.NET FRAMEWORK</option>
+                <option>PHP</option>
+                <option>SQL</option>
+                <option>LINUX + UNIX</option>
+                <option>WINDOWS SERVER</option>
+                <option>ВЕБ-ДИЗАЙН</option>
+                <option>ОСНОВЫ PHOTOSHOP</option>
+                <option>ОСНОВЫ ILLUSTRATOR</option>
+                <option>ВИДЕОМОНТАЖ</option>
+                <option>ENGLISH</option>
+                <option>TECHNICAL ENGLISH</option>
+               </select>
+               <select class="input-text" name="area" required>
+                <option selected="selected">Выберите район обучения</option>
+                <option>Голосеевский</option>
+                <option>Дарницкий</option>
+                <option>Днепровский</option>
+                <option>Деснянский</option>
+                <option>Святошинский</option>
+                <option>Соломенский</option>
+                <option>Оболонский</option>
+                <option>Подольский</option>
+                <option>Печерский</option>
+                <option>Шевченковский</option>
+                   </select>
+                   <select class="input-text" name="day" required>
+                   <option selected="selected">Желаемые дни обучения</option>
+                <option>Выходные</option>
+                <option>Будние</option>
+                <option>Не имеет значения</option>
+                   </select>
+                   <input class="input-text" type="text" name="phone" value="" placeholder="Ваш номер телефона?" required>
+                    <input class="input-text" type="email" name="email" value="" placeholder="Ваш адресс електронной почты?" required>
+                     <input class="input-btn" type="submit" value="Отправить">
+            </div>
+        </form>
+    </div>
+</div>
+
+    </div>
+</header>
+</div>
+<!--header-end-->
+
+<!--main-nav-start-->
+
+<div class="nav-overlay"></div>
+<nav class="main-nav-outer" id="test">
+    <div class="container">
+        <ul class="main-nav">
+            <!-- <li><a href="#header"><b>&#8593</b></a></li> -->
+            <li><a href="http://kids-code.com.ua/index.html#service">Почему ІТ?</a></li>
+            <li><a href="http://kids-code.com.ua/index.html#service1">О школе</a></li>
+            <li><a href="http://kids-code.com.ua/index.html#Portfolio">Курсы</a></li>
+            <li class="small-logo"><a href="http://kids-code.com.ua/index.html"><img src="../img/logo-white-bg.png" alt=""></a></li>
+            <!-- <li class="small-logo"><a href="http://kids-code.com.ua/"><img src="../img/logo-white-bg.png" alt=""></a></li> -->
+            <li><a href="http://kids-code.com.ua/index.html#client">Партнеры</a></li>
+            <li><a href="#team">Преподаватели</a></li>
+            <li><a href="#contact">Контакты</a></li>
+        </ul>
+        <a class="res-nav_click" href="#"><i class="fa-bars"></i></a>
+    </div>
+</nav>
+
+<a href="javascript:void(0)" class="scroll-top-btn">
+    <img src="../img/scroll_top.png">
+</a>
+
+<!--main-nav-end-->
+
+<section class="main-section about-course-preview">
+    <div class="container">
+        <h2 class="about-course-preview__title">C#</h2>
+        <div class="about-course-preview__box">
+            <img class="about-course-preview__img fadeInLeft wow" src="../img/technology.png">
+            <p class="about-course-preview__content wow fadeInRight delay-02s">
+                C# — элегантный, типобезопасный объектно-ориентированный язык, предназначенный для разработки разнообразных безопасных и мощных приложений, выполняемых в среде .NET Framework.
+            </p>
+        </div>
+    </div>
+</section>
+
+
+<section class="main-section about-course-in-detail">
+    <div class="container">
+        <div class="about-course-in-detail__box">
+            <div class="about-course-in-detail__content wow fadeInLeft delay-02s">
+                <p>Длительность курса: 24 часа</p>
+                <p>Возраст: 12+ лет</p>
+                <p>Цена: 3800 грн</p>
+            </div>
+            <img class="about-course-in-detail__img fadeInRight wow" src="../img/technology.png">
+        </div>
+    </div>
+</section>
+
+
+
+<section class="main-section team" id="team">
+    <div class="container">
+        <h2>Преподаватели курса</h2>
+        <div class="team-leader-block__jcarousel-wrapper">
+            <div class="team-leader-block__jcarousel clearfix">
+                <div class="team-leader-block__jcarousel-list">
+                    
+                    <div class="team-leader-box team-leader-box__jcarousel-item">
+                        <div class="team-leader wow fadeInDown delay-03s"> 
+                            <div class="team-leader-shadow"><a href="#"></a></div>
+                            <img src="../img/teachers/arsen_tymchuk.jpg" alt="">
+                            <ul>
+                                <li><a href="#" class="fa-info"></a></li>                 
+                                <li><a href="#" class="fa-vk"></a></li>
+                                <li><a href="#" class="fa-facebook"></a></li>
+                                <li><a href="#" class="fa-google-plus"></a></li>
+                            </ul>
+                        </div>
+                        <h3 class="wow fadeInDown delay-03s">Арсен Тымчук</h3>
+                        <span class="wow fadeInDown delay-03s">.NET developer</span>
+                        <p class="wow fadeInDown delay-03s">Передовой .NET специалист с 2-х летним опытом за спиной. На даный момент работает в компании CloudRoute.</p>
+                    </div>
+                    
+                    <div class="team-leader-box team-leader-box__jcarousel-item">
+                        <div class="team-leader  wow fadeInDown delay-06s"> 
+                            <div class="team-leader-shadow"><a href="#"></a></div>
+                            <img src="../img/teachers/daryna_chumachenko.jpg" alt="">
+                            <ul>
+                                <li><a href="#" class="fa-info"></a></li>                 
+                                <li><a href="#" class="fa-vk"></a></li>
+                                <li><a href="#" class="fa-facebook"></a></li>
+                                <li><a href="#" class="fa-google-plus"></a></li>
+                            </ul>
+                        </div>
+                        <h3 class="wow fadeInDown delay-06s">Дарья Чумаченко</h3>
+                        <span class="wow fadeInDown delay-06s">Специалист по технологиям обучения</span>
+                        <p class="wow fadeInDown delay-06s">Аспирант Национального педагогического университета имени М. П. Драгоманова
+                        Преподает "Современное деловодство" и "Креативные технологии обучения"<br></p>
+                    </div>
+                    
+                    <div class="team-leader-box team-leader-box__jcarousel-item">
+                        <div class="team-leader wow fadeInDown delay-09s"> 
+                            <div class="team-leader-shadow"><a href="#"></a></div>
+                            <img src="../img/teachers/juliya_fursivych.jpg" alt="">
+                            <ul>
+                                <li><a href="#" class="fa-info"></a></li>                 
+                                <li><a href="#" class="fa-vk"></a></li>
+                                <li><a href="#" class="fa-facebook"></a></li>
+                                <li><a href="#" class="fa-google-plus"></a></li>
+                            </ul>
+                        </div>
+                        <h3 class="wow fadeInDown delay-09s">Юлия Фурсович</h3>
+                        <span class="wow fadeInDown delay-09s">Преподаватель английского</span>
+                        <p class="wow fadeInDown delay-09s">Неоднократно принимала участие в заграничных программахс. С креативом подходт к обучению. Изучает английский с 4-х лет, знает 5 языков.<br></p>
+                    </div>
+                    
+                    <div class="team-leader-box team-leader-box__jcarousel-item">
+                        <div class="team-leader wow fadeInDown delay-09s"> 
+                            <div class="team-leader-shadow"><a href="#"></a></div>
+                            <img src="../img/teachers/kantya_turchyna.jpg" alt="">
+                            <ul>
+                                <li><a href="#" class="fa-info"></a></li>                 
+                                <li><a href="#" class="fa-vk"></a></li>
+                                <li><a href="#" class="fa-facebook"></a></li>
+                                <li><a href="#" class="fa-google-plus"></a></li>
+                            </ul>
+                        </div>
+                        <h3 class="wow fadeInDown delay-09s">Катерина Турчина</h3>
+                        <span class="wow fadeInDown delay-09s">Преподаватель английского и переводчик</span>
+                        <p class="wow fadeInDown delay-09s">Изучает английский и французский языки с 6 лет. Имеет большой опыт работы с детьми.<br></p>
+                    </div>
+                
+                    <div class="team-leader-box team-leader-box__jcarousel-item">
+                        <div class="team-leader wow fadeInDown delay-09s"> 
+                            <div class="team-leader-shadow"><a href="#"></a></div>
+                            <img src="../img/teachers/kolya_komnatnyi.jpg" alt="">
+                            <ul>
+                                <li><a href="#" class="fa-info"></a></li>                 
+                                <li><a href="#" class="fa-vk"></a></li>
+                                <li><a href="#" class="fa-facebook"></a></li>
+                                <li><a href="#" class="fa-google-plus"></a></li>
+                            </ul>
+                        </div>
+                        <h3 class="wow fadeInDown delay-09s">Николай Комнатный</h3>
+                        <span class="wow fadeInDown delay-09s">Web Developer</span>
+                        <p class="wow fadeInDown delay-09s">Робототехник по образованию. Занимается web разработкой более 4-х лет. Преподаватель двух ИТ школ.<br></p>
+                    </div>
+                    
+                    <div class="team-leader-box team-leader-box__jcarousel-item">
+                        <div class="team-leader wow fadeInDown delay-09s"> 
+                            <div class="team-leader-shadow"><a href="#"></a></div>
+                            <img src="../img/teachers/konstantin_soloduhin.jpg" alt="">
+                            <ul>
+                                <li><a href="#" class="fa-info"></a></li>                 
+                                <li><a href="#" class="fa-vk"></a></li>
+                                <li><a href="#" class="fa-facebook"></a></li>
+                                <li><a href="#" class="fa-google-plus"></a></li>
+                            </ul>
+                        </div>
+                        <h3 class="wow fadeInDown delay-09s">Константин Солодухин</h3>
+                        <span class="wow fadeInDown delay-09s">Кинематографист</span>
+                        <p class="wow fadeInDown delay-09s">Режисер документального кино. Постоянный волонтер кинофестивалей "Молодость" и KISFF. Опыт работы 5 лет.<br></p>
+                    </div>
+                    
+                    <div class="team-leader-box team-leader-box__jcarousel-item">
+                        <div class="team-leader wow fadeInDown delay-09s"> 
+                            <div class="team-leader-shadow"><a href="#"></a></div>
+                            <img src="../img/teachers/maksym_sheremet.jpg" alt="">
+                            <ul>
+                                <li><a href="#" class="fa-info"></a></li>                 
+                                <li><a href="#" class="fa-vk"></a></li>
+                                <li><a href="#" class="fa-facebook"></a></li>
+                                <li><a href="#" class="fa-google-plus"></a></li>
+                            </ul>
+                        </div>
+                        <h3 class="wow fadeInDown delay-09s">Максим Шеремет</h3>
+                        <span class="wow fadeInDown delay-09s">Специалист видеомонтажа</span>
+                        <p class="wow fadeInDown delay-09s">Гуру видеомонтажа. Более 7-ми лет работы и 3 года преподавания на самом крупном студеческом телевидении Украины #KPITV.<br></p>
+                    </div>
+                    
+                    <div class="team-leader-box team-leader-box__jcarousel-item">
+                        <div class="team-leader wow fadeInDown delay-09s"> 
+                            <div class="team-leader-shadow"><a href="#"></a></div>
+                            <img src="../img/teachers/nikita_velikanov.jpg" alt="">
+                            <ul>
+                                <li><a href="#" class="fa-info"></a></li>                 
+                                <li><a href="#" class="fa-vk"></a></li>
+                                <li><a href="#" class="fa-facebook"></a></li>
+                                <li><a href="#" class="fa-google-plus"></a></li>
+                            </ul>
+                        </div>
+                        <h3 class="wow fadeInDown delay-09s">Никита Великанов</h3>
+                        <span class="wow fadeInDown delay-09s">Developer</span>
+                        <p class="wow fadeInDown delay-09s">Практик с 4-х летним опытом разработки. Более года преподает Python и С/C++ используя реальные примеры.<br></p>
+                    </div>
+                    
+                    <div class="team-leader-box team-leader-box__jcarousel-item">
+                        <div class="team-leader wow fadeInDown delay-09s"> 
+                            <div class="team-leader-shadow"><a href="#"></a></div>
+                            <img src="../img/teachers/rinat_rizvanov.jpg" alt="">
+                            <ul>
+                                <li><a href="#" class="fa-info"></a></li>                 
+                                <li><a href="#" class="fa-vk"></a></li>
+                                <li><a href="#" class="fa-facebook"></a></li>
+                                <li><a href="#" class="fa-google-plus"></a></li>
+                            </ul>
+                        </div>
+                        <h3 class="wow fadeInDown delay-09s">Ринат Ризванов</h3>
+                        <span class="wow fadeInDown delay-09s">Графический дизайнер</span>
+                        <p class="wow fadeInDown delay-09s">Опыт работы в среде дизайна 7 лет. Процес обучения строит на том, чтобы дети могли эффективно решать поставленные задачи.<br></p>
+                    </div>
+                
+                    <div class="team-leader-box team-leader-box__jcarousel-item">
+                        <div class="team-leader wow fadeInDown delay-09s"> 
+                            <div class="team-leader-shadow"><a href="#"></a></div>
+                            <img src="../img/teachers/sasha_pivtorak.jpg" alt="">
+                            <ul>
+                                <li><a href="#" class="fa-info"></a></li>                 
+                                <li><a href="#" class="fa-vk"></a></li>
+                                <li><a href="#" class="fa-facebook"></a></li>
+                                <li><a href="#" class="fa-google-plus"></a></li>
+                            </ul>
+                        </div>
+                        <h3 class="wow fadeInDown delay-09s">Александр Пивторак</h3>
+                        <span class="wow fadeInDown delay-09s">Веб-дизайнер</span>
+                        <p class="wow fadeInDown delay-09s">Занимается дизайном более 6 лет. Есть опыт преподавания в проектах Корпуса Мира США.<br></p>
+                    </div>
+                    
+                    <div class="team-leader-box team-leader-box__jcarousel-item">
+                        <div class="team-leader wow fadeInDown delay-09s"> 
+                            <div class="team-leader-shadow"><a href="#"></a></div>
+                            <img src="../img/teachers/vitalyi_lyashenko.jpg" alt="">
+                            <ul>
+                                <li><a href="#" class="fa-info"></a></li>                 
+                                <li><a href="#" class="fa-vk"></a></li>
+                                <li><a href="#" class="fa-facebook"></a></li>
+                                <li><a href="#" class="fa-google-plus"></a></li>
+                            </ul>
+                        </div>
+                        <h3 class="wow fadeInDown delay-09s">Виталий Ляшенко</h3>
+                        <span class="wow fadeInDown delay-09s">Java developer</span>
+                        <p class="wow fadeInDown delay-09s">Разработчик мобильных приложений под Android и iOS с 4-х летним опытом работы.<br></p>
+                    </div>
+                </div>
+            </div>
+            <!-- <p class="team-leader-block__jcarousel-pagination"></p> -->
+            <a class="team-leader-block__jcarousel-control-prev" href="javascript:void(0)">&lt;</a>
+            <a class="team-leader-block__jcarousel-control-next" href="javascript:void(0)">&gt;</a>
+        </div>      
+    </div>
+</section>
+
+<div class="container">
+<section class="main-section contact"  id="contact">
+    
+        <div class="row">
+            <div class="col-lg-6 col-sm-7 wow fadeInLeft">
+                <div class="contact-info-box address clearfix">
+                    <h3><i class=" icon-map-marker"></i>Адрес:</h3>
+                    <span>*Список мест, где уже проходят занятия</span>
+                </div>
+                <div class="contact-info-box phone clearfix">
+                    <h3><i class="fa-phone"></i>Телефон:</h3>
+                    <span>
+                    +38 (067) 10-111-20<br>
+                    +38 (063) 10-111-20
+                    </span>
+                </div>
+                <div class="contact-info-box email clearfix">
+                    <h3><i class="fa-pencil"></i>Ел.почта:</h3>
+                    <span>info@kids-code.com.ua</span>
+                </div>
+                <div class="contact-info-box hours clearfix">
+                    <h3><i class="fa-clock-o"></i>Время:</h3>
+                    <span><strong>10:00-22:00</strong><br>
+                    Без выходных и перерывов</span>
+                </div>
+                <ul class="social-link">
+                    <li class="pinterest"><a href="https://vk.com/kids_code"><i class="fa-vk"></i></a></li>
+                    <li class="facebook"><a href="https://www.facebook.com/KidsCodeKiev/"><i class="fa-facebook"></i></a></li>
+                    <li class="gplus"><a href="#"><i class="fa-google-plus"></i></a></li>
+                    <li class="twitter"><a href="#"><i class="fa-twitter"></i></a></li>
+                    <li class="dribbble"><a href="https://www.instagram.com/kids_code_kiev/"><i class="fa-instagram"></i></a></li>
+                </ul>
+            </div>
+            <div class="col-lg-6 col-sm-5 wow fadeInUp delay-05s">
+            <form action="../thankyou_massage.php" method="post">
+            <h4>Есть вопрос - заполните форму и мы обязательно ответим</h4>
+                <div class="form" action="../thankyou_massage.php" method="post">
+                    <input class="input-text" type="text" name="m_name" value="" placeholder="Как Вас зовут?" required>
+                    <input class="input-text" type="email" name="m_email" value="" placeholder="Ваш адресс електронной почты?" required>
+                    <textarea class="input-text text-area" name="massage" cols="0" rows="0" required>Что вы хотели бы уточнить?</textarea>
+                    <input class="input-btn" type="submit" value="Отправить">
+                </div>
+                </form>
+            </div>
+        </div>
+</section>
+</div>
+
+
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer-logo"><a href="#"><img src="../img/logo-dark-bg.png" alt=""></a></div>
+        <span class="copyright">Kids Code © 2017 | Все права защищены</span>
+    </div>
+    <!-- 
+        All links in the footer should remain intact. 
+        Licenseing information is available at: http://bootstraptaste.com/license/
+        You can buy this theme without footer links online at: http://bootstraptaste.com/buy/?theme=Knight
+    -->
+</footer>
+
+
+<script type="text/javascript">
+    $(document).ready(function(e) {
+        $('#test').scrollToFixed();
+        if (window.screen.width < 768) {
+            $('.res-nav_click').click(function(){
+                $('.nav-overlay').toggle();
+                $('.main-nav').slideToggle();
+                return false    
+                
+            });
+            $('.main-nav li a').click(function () {
+                $('.main-nav').slideToggle();
+                $('.nav-overlay').toggle();
+            })
+            $('.nav-overlay').click(function () {
+                $('.nav-overlay').toggle();
+                $('.main-nav').slideToggle();
+            })
+        }
+
+
+                // registration clients
+        $('.course-registration-link').click(function () {
+            $('.modalDialog-overlay').toggle();
+            $('.modalDialog').slideToggle();
+        })
+
+        $('#registration-clients').click(function () {
+            $('.modalDialog-overlay').toggle();
+            $('.modalDialog').slideToggle();
+        })
+        
+        $('.modalDialog-overlay').click(function () {
+            $('.modalDialog-overlay').toggle();
+            $('.modalDialog').slideToggle();
+        })
+
+        $('#close').click(function() {
+            $('.modalDialog-overlay').toggle();
+            $('.modalDialog').slideToggle();
+        });
+
+
+
+                        // Carousel
+
+        var $teamCarousel = $('.team-leader-block__jcarousel');
+
+        $teamCarousel
+            .on('jcarousel:reload jcarousel:create', function () {})
+            .jcarousel({
+                wrap: 'circular'
+            });
+        
+        // $teamCarousel.jcarouselAutoscroll({
+            // interval: 10000
+        // });
+
+
+
+          $('.team-leader-block__jcarousel-pagination')
+              .on('jcarouselpagination:active', 'a', function() {
+                  $(this).addClass('active');
+              })
+              .on('jcarouselpagination:inactive', 'a', function() {
+                  $(this).removeClass('active');
+              })
+              .on('click', function(e) {
+                  e.preventDefault();
+              })
+              .jcarouselPagination({
+                  perPage: 3,
+                  item: function(page) {
+                      return '<a href="#' + page + '">' + page + '</a>';
+              }})
+
+          $('.team-leader-block__jcarousel-control-prev')
+              .jcarouselControl({
+                  target: '-=1'
+              })
+
+          $('.team-leader-block__jcarousel-control-next')
+              .jcarouselControl({
+                  target: '+=1'
+              })
+
+
+    });
+</script>
+
+<script>
+    $(document).ready(function(){   
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 300) {
+                $('.scroll-top-btn').fadeIn();
+            } else {
+                $('.scroll-top-btn').fadeOut();
+            }
+        });
+        $('.scroll-top-btn').click(function () {
+            $('body,html').animate({
+                scrollTop: 0
+            }, 400);
+            return false;
+        });
+    });
+</script>
+
+
+<!-- <script> -->
+    <!-- $(document).ready(function(){ -->
+        <!-- $(".main-nav").changeActiveNav(); -->
+    <!-- }); -->
+<!-- </script> -->
+
+
+  <script>
+    wow = new WOW(
+      {
+        animateClass: 'animated',
+        offset:       100
+      }
+    );
+    wow.init();
+ 
+  </script>
+
+
+<script type="text/javascript">
+    $(window).load(function(){
+        
+        $('.main-nav li a').bind('click',function(event){
+            var $anchor = $(this);
+            
+            $('html, body').stop().animate({
+                scrollTop: $($anchor.attr('href')).offset().top -50
+            }, 1500,'easeInOutExpo');
+            /*
+            if you don't want to use the easing effects:
+            $('html, body').stop().animate({
+                scrollTop: $($anchor.attr('href')).offset().top
+            }, 1000);
+            */
+            event.preventDefault();
+        });
+
+    })
+</script>
+
+<script type="text/javascript">
+
+$(window).load(function(){
+  
+  
+  var $container = $('.portfolioContainer'),
+      $body = $('body'),
+      colW = 375,
+      columns = null;
+
+  
+  $container.isotope({
+    // disable window resizing
+    resizable: true,
+    masonry: {
+      columnWidth: colW
+    }
+  });
+  
+  $(window).smartresize(function(){
+    // check if columns has changed
+    var currentColumns = Math.floor( ( $body.width() -30 ) / colW );
+    if ( currentColumns !== columns ) {
+      // set new column count
+      columns = currentColumns;
+      // apply width to container manually, then trigger relayout
+      $container.width( columns * colW )
+        .isotope('reLayout');
+    }
+    
+  }).smartresize(); // trigger resize to set container width
+  $('.portfolioFilter a').click(function(){
+        $('.portfolioFilter .current').removeClass('current');
+        $(this).addClass('current');
+ 
+        var selector = $(this).attr('data-filter');
+        $container.isotope({
+            
+            filter: selector,
+         });
+         return false;
+    });
+  
+});
+
+</script>
+<style>
+.modalDialog-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.8);
+    z-index: 2000;
+}
+
+.modalDialog {
+position: fixed;
+font-family: Arial, Helvetica, sans-serif;
+
+z-index: 3000;
+-webkit-transition: opacity 400ms ease-in;
+-moz-transition: opacity 400ms ease-in;
+transition: opacity 400ms ease-in;
+display: none;
+pointer-events: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+width: 350px;
+border-radius: 10px;
+background: #fff;
+pointer-events: auto;
+}
+
+.modalDialog > div {
+padding: 5px 20px 13px 10px;
+background: -moz-linear-gradient(#fff, #999);
+background: -webkit-linear-gradient(#fff, #999);
+background: -o-linear-gradient(#fff, #999);
+}
+
+/* .team-leader-box:nth-of-type(3n+0) {
+    margin-right: 35px;
+} */
+
+
+</style>
+</body>
+</html>
