@@ -217,6 +217,10 @@ color: #fff;
 	color: white;
 }
 
+.active {
+	background-color: #41a5fb;
+}
+
 .small-logo{
 	width: 150px;
 }

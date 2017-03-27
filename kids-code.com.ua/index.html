@@ -27,7 +27,6 @@
 <script type="text/javascript" src="js/jquery.isotope.js"></script>
 <script type="text/javascript" src="js/wow.js"></script>
 <script type="text/javascript" src="js/classie.js"></script>
-<!-- <script type="text/javascript" src="js/jquery.changeActiveNav.min.js"></script> -->
 
 
 <!--[if lt IE 9]>
@@ -1236,6 +1235,35 @@
     wow.init();
  
   </script>
+
+
+
+<script type="text/javascript">
+jQuery(function ($) {
+    $(window).scroll(function(){
+        $("section").each(function () {
+            var window_top = $(window).scrollTop();
+            var div_top = $(this).offset().top;
+            var div_active = $(this).attr('id');
+
+            if (window_top > div_top - 100){
+                $('.main-nav').find('a').removeClass('active');
+                $('.main-nav').find('a[href="#' + div_active + '" ]').addClass('active');
+            }
+            else{
+                $('.main-nav').find('a[href="#' + div_active + '" ]').removeClass('active');
+            };
+        });
+
+
+        if ($(window).scrollTop() == $(document).height() - $(window).height()) {
+            $('.main-nav').find('a').removeClass('active');
+            $('.main-nav').find('a[href="#contact" ]').addClass('active');
+        }
+
+    });
+});
+</script>
 
 
 <script type="text/javascript">
